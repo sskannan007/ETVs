@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+body {
+  margin-left: 220px;
+  background: #f8f7f6;
+  font-family: 'Inter', sans-serif;
+}
+
+@media (max-width: 900px) {
+  body {
+    margin-left: 60px;
+  }
+}
+
+.sidenav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 220px;
+  height: 100vh;
+  background: #fafbfc;
+  border-right: 1px solid #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  z-index: 1000;
+  font-family: 'Inter', sans-serif;
+}
+
+.sidenav-logo {
+  padding: 32px 0 24px 0;
+  text-align: center;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.logo-text {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #222;
+  letter-spacing: 2px;
+  font-family: 'Inter', sans-serif;
+}
+
+.sidenav-links {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 32px;
+  padding: 0 24px;
+  font-family: 'Inter', sans-serif;
+}
+
+.sidenav-links a {
+  color: #222;
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 12px 16px;
+  border-radius: 8px;
+  transition: background 0.2s, color 0.2s;
+  font-family: 'Inter', sans-serif;
+}
+
+.sidenav-links a.active, .sidenav-links a:hover {
+  background: #e5e7eb;
+  color: #1976d2;
+}
+
+.sidenav-logout {
+  margin-top: 32px;
+  width: 100%;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: #1976d2 !important;
+  color: #fff !important;
+  border: none;
+  font-family: 'Inter', sans-serif;
+}
+
+@media (max-width: 900px) {
+  .sidenav {
+    width: 60px;
+  }
+  .sidenav-logo {
+    padding: 16px 0;
+  }
+  .logo-text {
+    font-size: 1.2rem;
+  }
+  .sidenav-links {
+    padding: 0 8px;
+    margin-top: 16px;
+  }
+  .sidenav-links a {
+    font-size: 0.9rem;
+    padding: 8px 8px;
+    text-align: center;
+  }
+  .sidenav-logout {
+    font-size: 0.9rem;
+    margin-top: 16px;
+  }
+} 

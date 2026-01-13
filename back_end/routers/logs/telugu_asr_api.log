@@ -1,0 +1,38 @@
+2025-12-05 11:22:42,751 [INFO] TeluguASR - [START REQUEST] 2025-12-05T05:52:42.751605 | From: 127.0.0.1 | File: Telugu_Sample_1_final.wav
+2025-12-05 11:22:42,755 [INFO] TeluguASR - Created temp directory: ./temp/f3524800c68d47e2967ebbf3a9f0b19e
+2025-12-05 11:22:42,828 [INFO] TeluguASR - Saved uploaded file → ./temp/f3524800c68d47e2967ebbf3a9f0b19e/input/input.wav
+2025-12-05 11:22:42,895 [INFO] TeluguASR - Audio duration: 2.33 minutes
+2025-12-05 11:22:42,895 [INFO] TeluguASR - Chunk size selected: 300 seconds
+2025-12-05 11:22:42,896 [INFO] TeluguASR - Splitting audio: ./temp/f3524800c68d47e2967ebbf3a9f0b19e/input/input.wav into chunks of 300.0s each
+2025-12-05 11:22:42,951 [INFO] TeluguASR - Audio duration: 139.50s
+2025-12-05 11:22:43,013 [INFO] TeluguASR - Created chunk 1 | Start: 0.00s | End: 139.50s
+2025-12-05 11:22:43,013 [INFO] TeluguASR - Total chunks created: 1
+2025-12-05 11:22:43,014 [INFO] TeluguASR - Creating SarvamAI STT Job
+2025-12-05 11:22:43,252 [INFO] TeluguASR - Uploading chunks to SarvamAI job
+2025-12-05 11:22:44,284 [INFO] TeluguASR - Starting SarvamAI job…
+2025-12-05 11:22:44,453 [INFO] TeluguASR - Waiting for SarvamAI job to finish…
+2025-12-05 11:22:49,886 [INFO] TeluguASR - Downloading SarvamAI job output files…
+2025-12-05 11:22:50,373 [INFO] TeluguASR - Merging JSON transcription files in: ./temp/f3524800c68d47e2967ebbf3a9f0b19e/output
+2025-12-05 11:22:50,374 [INFO] TeluguASR - Reading JSON file: ./temp/f3524800c68d47e2967ebbf3a9f0b19e/output/chunk_1.wav.json
+2025-12-05 11:22:50,375 [INFO] TeluguASR - Final merged transcription saved at: ./temp/f3524800c68d47e2967ebbf3a9f0b19e/output/final_transcription.txt
+2025-12-05 11:22:50,376 [INFO] TeluguASR - [END REQUEST] 2025-12-05T05:52:50.376254 | File: Telugu_Sample_1_final.wav | Processing Time: 0.13 mins | Client: 127.0.0.1
+2025-12-05 11:22:50,381 [INFO] TeluguASR - Cleaned temp directory: ./temp/f3524800c68d47e2967ebbf3a9f0b19e
+2025-12-05 11:44:54,713 [INFO] TeluguASR - [START REQUEST] 2025-12-05T06:14:54.713024 | From: 127.0.0.1 | File: Telugu_Sample_1_final.wav
+2025-12-05 11:44:54,714 [INFO] TeluguASR - Created temp directory: ./temp/54e35f86ca5e4ac8844aaf380840e401
+2025-12-05 11:44:54,726 [INFO] TeluguASR - Saved uploaded file → ./temp/54e35f86ca5e4ac8844aaf380840e401/input/input.wav
+2025-12-05 11:44:54,730 [INFO] TeluguASR - Audio duration: 2.33 minutes
+2025-12-05 11:44:54,730 [INFO] TeluguASR - Chunk size selected: 300 seconds
+2025-12-05 11:44:54,731 [INFO] TeluguASR - Splitting audio: ./temp/54e35f86ca5e4ac8844aaf380840e401/input/input.wav into chunks of 300.0s each
+2025-12-05 11:44:54,735 [INFO] TeluguASR - Audio duration: 139.50s
+2025-12-05 11:44:54,741 [INFO] TeluguASR - Created chunk 1 | Start: 0.00s | End: 139.50s
+2025-12-05 11:44:54,741 [INFO] TeluguASR - Total chunks created: 1
+2025-12-05 11:44:54,741 [INFO] TeluguASR - Creating SarvamAI STT Job
+2025-12-05 11:44:55,015 [INFO] TeluguASR - Uploading chunks to SarvamAI job
+2025-12-05 11:44:56,035 [INFO] TeluguASR - Starting SarvamAI job…
+2025-12-05 11:44:56,153 [INFO] TeluguASR - Waiting for SarvamAI job to finish…
+2025-12-05 11:45:01,554 [INFO] TeluguASR - Downloading SarvamAI job output files…
+2025-12-05 11:45:02,054 [INFO] TeluguASR - Merging JSON transcription files in: ./temp/54e35f86ca5e4ac8844aaf380840e401/output
+2025-12-05 11:45:02,055 [INFO] TeluguASR - Reading JSON file: ./temp/54e35f86ca5e4ac8844aaf380840e401/output/chunk_1.wav.json
+2025-12-05 11:45:02,055 [INFO] TeluguASR - Final merged transcription saved at: ./temp/54e35f86ca5e4ac8844aaf380840e401/output/final_transcription.txt
+2025-12-05 11:45:02,056 [INFO] TeluguASR - [END REQUEST] 2025-12-05T06:15:02.056123 | File: Telugu_Sample_1_final.wav | Processing Time: 0.12 mins | Client: 127.0.0.1
+2025-12-05 11:45:02,058 [INFO] TeluguASR - Cleaned temp directory: ./temp/54e35f86ca5e4ac8844aaf380840e401

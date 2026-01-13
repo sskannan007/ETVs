@@ -1,0 +1,24 @@
+2025-12-05 11:23:11,299 [INFO] EnglishASR - [START REQUEST] 2025-12-05T05:53:11.299813 | From: 127.0.0.1 | File: English_Sample_1_final_M.wav
+2025-12-05 11:23:11,309 [INFO] EnglishASR - Saved file → ./temp_english_dfba7962c2f14f4b800abb084e4a19b0/input/input.wav
+2025-12-05 11:23:11,313 [INFO] EnglishASR - Chunk size: 30s
+2025-12-05 11:23:11,313 [INFO] EnglishASR - Splitting audio: ./temp_english_dfba7962c2f14f4b800abb084e4a19b0/input/input.wav into chunks of 30.0s each
+2025-12-05 11:23:11,318 [INFO] EnglishASR - Chunk 1: 0.00s → 30.00s
+2025-12-05 11:23:11,319 [INFO] EnglishASR - Chunk 2: 30.00s → 38.22s
+2025-12-05 11:23:11,320 [INFO] EnglishASR - Total chunks created: 2
+2025-12-05 11:23:11,320 [INFO] EnglishASR - Transcribing chunk 1/2 → ./temp_english_dfba7962c2f14f4b800abb084e4a19b0/chunks/chunk_1.wav
+2025-12-05 11:23:43,153 [INFO] EnglishASR - Transcribing chunk 2/2 → ./temp_english_dfba7962c2f14f4b800abb084e4a19b0/chunks/chunk_2.wav
+2025-12-05 11:24:05,104 [INFO] EnglishASR - Merging JSON transcription files in: ./temp_english_dfba7962c2f14f4b800abb084e4a19b0/output
+2025-12-05 11:24:05,105 [INFO] EnglishASR - Final merged transcription saved at: ./temp_english_dfba7962c2f14f4b800abb084e4a19b0/output/final_transcription.txt
+2025-12-05 11:24:05,106 [INFO] EnglishASR - [END REQUEST] 2025-12-05T05:54:05.106562 | File: English_Sample_1_final_M.wav | Processing Time: 0.9 mins | Client: 127.0.0.1
+2025-12-05 11:43:05,186 [INFO] EnglishASR - [START REQUEST] 2025-12-05T06:13:05.186072 | From: 127.0.0.1 | File: English_Sample_1_final_M.wav
+2025-12-05 11:43:05,189 [INFO] EnglishASR - Saved file → ./temp_english_0873c3084d014fa0b21eb17c612fb721/input/input.wav
+2025-12-05 11:43:05,190 [INFO] EnglishASR - Chunk size: 30s
+2025-12-05 11:43:05,190 [INFO] EnglishASR - Splitting audio: ./temp_english_0873c3084d014fa0b21eb17c612fb721/input/input.wav into chunks of 30.0s each
+2025-12-05 11:43:05,192 [INFO] EnglishASR - Chunk 1: 0.00s → 30.00s
+2025-12-05 11:43:05,193 [INFO] EnglishASR - Chunk 2: 30.00s → 38.22s
+2025-12-05 11:43:05,193 [INFO] EnglishASR - Total chunks created: 2
+2025-12-05 11:43:05,193 [INFO] EnglishASR - Transcribing chunk 1/2 → ./temp_english_0873c3084d014fa0b21eb17c612fb721/chunks/chunk_1.wav
+2025-12-05 11:43:31,135 [INFO] EnglishASR - Transcribing chunk 2/2 → ./temp_english_0873c3084d014fa0b21eb17c612fb721/chunks/chunk_2.wav
+2025-12-05 11:43:49,473 [INFO] EnglishASR - Merging JSON transcription files in: ./temp_english_0873c3084d014fa0b21eb17c612fb721/output
+2025-12-05 11:43:49,535 [INFO] EnglishASR - Final merged transcription saved at: ./temp_english_0873c3084d014fa0b21eb17c612fb721/output/final_transcription.txt
+2025-12-05 11:43:49,538 [INFO] EnglishASR - [END REQUEST] 2025-12-05T06:13:49.538248 | File: English_Sample_1_final_M.wav | Processing Time: 0.74 mins | Client: 127.0.0.1

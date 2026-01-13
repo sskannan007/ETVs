@@ -1,0 +1,289 @@
+/* Only keeping styles for used classes */
+
+.page-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f2f5;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.container-fluid {
+  display: flex;
+  height: 70vh;
+  width: 100%;
+  max-width: 900px;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  padding: 0 !important;
+}
+
+.left-panel {
+  flex: 1;
+  background: linear-gradient(130deg, #133a60 47%, #3b6b9b 95%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.right-panel {
+  flex: 1;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  background: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sign-up {
+  max-height: 65vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-right: 10px;
+  scrollbar-width: thin;
+}
+.sign-up::-webkit-scrollbar {
+  width: 6px;
+}
+.sign-up::-webkit-scrollbar-thumb {
+  background-color: #3c3c3c;
+  border-radius: 10px;
+}
+.sign-up::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+.sign-in button:hover, .sign-up button:hover,
+.sign-in button, .sign-up button {
+  background: #133a60;
+  border: #133a60;
+}
+.form-check-input:checked {
+    background-color: #133a60;
+    border-color: #133a60;
+}
+
+.login-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.register-container {
+  width: 100%;
+}
+
+.img-title {
+  text-align: center;
+}
+
+.mb-4 { margin-bottom: 1.5rem !important; }
+.mb-3 { margin-bottom: 1rem !important; }
+.mb-2 { margin-bottom: 0.5rem !important; }
+
+.d-flex { display: flex !important; }
+.align-items-center { align-items: center !important; }
+.justify-content-center { justify-content: center !important; }
+.pt-3 { padding-top: 1rem !important; }
+
+.error-message {
+  font-size: 10px;
+  color: red;
+  margin: 4px 0 0 4px;
+}
+
+.login-button-parent {
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.already-login {
+  color: #0053ac;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.profile-menu-item {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 0.7rem 1.2rem;
+  cursor: pointer;
+  font-weight: 500;
+  color: #222;
+  border-radius: 6px;
+  transition: background 0.2s, color 0.2s;
+}
+.profile-menu-item:hover {
+  background: #0505050a;
+  color: #000000;
+}
+.profile-menu-item.logout {
+  color: #d32f2f;
+}
+.profile-menu-item.logout:hover {
+  background: #ffeaea;
+  color: #b71c1c;
+}
+
+.sidebar-nav-link {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #222;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  padding: 0.7rem 1.2rem;
+  margin: 0 -0.5rem;
+  transition: all 0.2s;
+  justify-content: flex-start;
+  background: none;
+}
+.sidebar-nav-link.active, .sidebar-nav-link:hover {
+  background: #093867;
+  color: #fff;
+  font-weight: 700;
+}
+
+.arrow-icon {
+  width: auto;
+}
+.arrow-icon:hover {
+  background-color: transparent !important;
+}
+.user-name {
+  font-size: 26px;
+  margin-left: 4px;
+}
+
+.sentence-input {
+  height: 45px;
+}
+.start-btn {
+  width: 100px;
+  font-size: 20px;
+  padding: 4px;
+}
+
+.main-content {
+  transition: margin-left 0.2s;
+}
+.full-content {
+  margin-left: 70px;
+  transition: margin-left 0.2s;
+}
+.form-floating>.form-control {
+  height: 3rem;
+  min-height: 0;
+}
+.form-floating>label {
+  line-height: 16px;
+}
+.topbar-nav-link {
+  padding: 0 !important;
+  background: transparent !important;
+  border-radius: 0;
+}
+.topbar-nav-link.active, .topbar-nav-link:hover {
+    border-bottom: 3px solid #000000;
+    background: transparent !important;
+    border-radius: 0;
+    padding: 0;
+}
+.language-title {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+/* Hide volume control and mute button in native audio player (Chrome, Edge, Opera) */
+audio::-webkit-media-controls-volume-slider,
+audio::-webkit-media-controls-mute-button {
+  display: none !important;
+}
+
+/* Hide volume control in Firefox (best effort) */
+audio::-moz-media-controls {
+  display: none !important;
+}
+
+.dropdown-menu.show {
+  inset: 0px 0 auto auto !important;
+}
+.main-content button.more-btn, .main-content button.records-more-btn {
+  background: none!important;
+  color: #133a60!important;
+  font-size: 16px!important;
+  text-decoration: underline!important;
+}
+.close-navbar-additional button, .main-content button, .save-btn, .records-copy-btn, .records-download-btn {
+  color: #fff !important;
+  background: #133a60 !important;
+  border-color: #133a60 !important;
+}
+
+.main-content button.btn-close {
+  background-color:transparent !important;
+  border-color: none !important;
+  color: #000000 !important;
+}
+.main-content button.delete-btn {
+  background-color: red !important;
+  border-color: red !important;
+}
+
+// .upload-xlsx-form input#file-upload-button {
+//   background-color: #133a60 !important;
+//   border-color: #133a60 !important;
+// }
+
+.uploaded-file-btn:hover {
+  background-color: transparent;
+}
+
+.extracted-transcription-textarea {
+  min-height: calc(12.5em + .75rem + calc(var(--bs-border-width) * 2)) !important;
+}
+
+/* Hide volume slider */
+audio::-webkit-media-controls-volume-slider {
+  display: none !important;
+}
+
+/* Hide mute button */
+audio::-webkit-media-controls-mute-button {
+  display: none !important;
+}
+
+/* Hide the overflow menu (three dots) */
+audio::-webkit-media-controls-enclosure {
+  overflow: hidden !important;
+}
+
+/* Reduce internal padding so blank space disappears */
+audio::-webkit-media-controls-panel {
+  padding-right: 0 !important;
+}
+audio::-webkit-media-controls-enclosure {
+  max-width: 100% !important;
+}
+.filter-dropdown-button::after, .action-dropdown .dropdown-toggle::after {
+  display: none !important;
+}

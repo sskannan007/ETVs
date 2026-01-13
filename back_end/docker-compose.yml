@@ -1,0 +1,13 @@
+services:
+  sarvam_asr_tts:
+    build: .
+    container_name: sarvam_asr_tts
+    ports:
+      - "8012:8000"
+    # Mount project (optional) + logs directory
+    volumes:
+      - .:/app
+      - /home/boss/Sarvam_ASR_TTS/routers/logs:/app/routers/logs
+    environment:
+      - TZ=Asia/Kolkata
+    restart: unless-stopped

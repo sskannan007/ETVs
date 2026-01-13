@@ -1,0 +1,38 @@
+2025-12-05 11:22:09,235 [INFO] HindiASR - [START REQUEST] 2025-12-05T05:52:09.234862 | From: 127.0.0.1 | File: Hindi_Sample_1_final_M.wav
+2025-12-05 11:22:09,240 [INFO] HindiASR - Created temp directory: ./temp/544c651b7c8b4f82834bbeb69a0cb5ea
+2025-12-05 11:22:09,259 [INFO] HindiASR - Saved uploaded file → ./temp/544c651b7c8b4f82834bbeb69a0cb5ea/input/input.wav
+2025-12-05 11:22:09,271 [INFO] HindiASR - Audio duration: 0.59 minutes
+2025-12-05 11:22:09,271 [INFO] HindiASR - Chunk size selected: 300 seconds
+2025-12-05 11:22:09,271 [INFO] HindiASR - Splitting audio: ./temp/544c651b7c8b4f82834bbeb69a0cb5ea/input/input.wav into chunks of 300.0s each
+2025-12-05 11:22:09,276 [INFO] HindiASR - Audio duration: 35.62s
+2025-12-05 11:22:09,288 [INFO] HindiASR - Created chunk 1 | Start: 0.00s | End: 35.62s
+2025-12-05 11:22:09,288 [INFO] HindiASR - Total chunks created: 1
+2025-12-05 11:22:09,288 [INFO] HindiASR - Creating SarvamAI STT Job
+2025-12-05 11:22:09,508 [INFO] HindiASR - Uploading chunks to SarvamAI job
+2025-12-05 11:22:10,305 [INFO] HindiASR - Starting SarvamAI job…
+2025-12-05 11:22:10,449 [INFO] HindiASR - Waiting for SarvamAI job to finish…
+2025-12-05 11:22:15,785 [INFO] HindiASR - Downloading SarvamAI job output files…
+2025-12-05 11:22:16,267 [INFO] HindiASR - Merging JSON transcription files in: ./temp/544c651b7c8b4f82834bbeb69a0cb5ea/output
+2025-12-05 11:22:16,303 [INFO] HindiASR - Reading JSON file: ./temp/544c651b7c8b4f82834bbeb69a0cb5ea/output/chunk_1.wav.json
+2025-12-05 11:22:16,308 [INFO] HindiASR - Final merged transcription saved at: ./temp/544c651b7c8b4f82834bbeb69a0cb5ea/output/final_transcription.txt
+2025-12-05 11:22:16,310 [INFO] HindiASR - [END REQUEST] 2025-12-05T05:52:16.310007 | File: Hindi_Sample_1_final_M.wav | Processing Time: 0.12 mins | Client: 127.0.0.1
+2025-12-05 11:22:16,344 [INFO] HindiASR - Cleaned temp directory: ./temp/544c651b7c8b4f82834bbeb69a0cb5ea
+2025-12-05 11:44:17,560 [INFO] HindiASR - [START REQUEST] 2025-12-05T06:14:17.560510 | From: 127.0.0.1 | File: Hindi_Sample_1_final_M.wav
+2025-12-05 11:44:17,562 [INFO] HindiASR - Created temp directory: ./temp/43f0ec783c924364916b12cf68d393bb
+2025-12-05 11:44:17,564 [INFO] HindiASR - Saved uploaded file → ./temp/43f0ec783c924364916b12cf68d393bb/input/input.wav
+2025-12-05 11:44:17,565 [INFO] HindiASR - Audio duration: 0.59 minutes
+2025-12-05 11:44:17,565 [INFO] HindiASR - Chunk size selected: 300 seconds
+2025-12-05 11:44:17,565 [INFO] HindiASR - Splitting audio: ./temp/43f0ec783c924364916b12cf68d393bb/input/input.wav into chunks of 300.0s each
+2025-12-05 11:44:17,567 [INFO] HindiASR - Audio duration: 35.62s
+2025-12-05 11:44:17,568 [INFO] HindiASR - Created chunk 1 | Start: 0.00s | End: 35.62s
+2025-12-05 11:44:17,569 [INFO] HindiASR - Total chunks created: 1
+2025-12-05 11:44:17,569 [INFO] HindiASR - Creating SarvamAI STT Job
+2025-12-05 11:44:17,812 [INFO] HindiASR - Uploading chunks to SarvamAI job
+2025-12-05 11:44:18,547 [INFO] HindiASR - Starting SarvamAI job…
+2025-12-05 11:44:18,683 [INFO] HindiASR - Waiting for SarvamAI job to finish…
+2025-12-05 11:44:21,580 [INFO] HindiASR - Downloading SarvamAI job output files…
+2025-12-05 11:44:21,950 [INFO] HindiASR - Merging JSON transcription files in: ./temp/43f0ec783c924364916b12cf68d393bb/output
+2025-12-05 11:44:21,950 [INFO] HindiASR - Reading JSON file: ./temp/43f0ec783c924364916b12cf68d393bb/output/chunk_1.wav.json
+2025-12-05 11:44:21,950 [INFO] HindiASR - Final merged transcription saved at: ./temp/43f0ec783c924364916b12cf68d393bb/output/final_transcription.txt
+2025-12-05 11:44:21,950 [INFO] HindiASR - [END REQUEST] 2025-12-05T06:14:21.950894 | File: Hindi_Sample_1_final_M.wav | Processing Time: 0.07 mins | Client: 127.0.0.1
+2025-12-05 11:44:21,952 [INFO] HindiASR - Cleaned temp directory: ./temp/43f0ec783c924364916b12cf68d393bb

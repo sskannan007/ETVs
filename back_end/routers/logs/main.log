@@ -1,0 +1,1787 @@
+2025-12-05 11:09:28,693 [INFO] Main - Logging initialized successfully
+2025-12-05 11:13:32,929 [INFO] Main - Logging initialized successfully
+2025-12-05 11:21:59,223 [INFO] Main - Logging initialized successfully
+2025-12-05 11:30:43,628 [INFO] Main - Logging initialized successfully
+2025-12-05 11:30:53,415 [INFO] Main - Logging initialized successfully
+2025-12-05 11:31:12,348 [INFO] Main - Logging initialized successfully
+2025-12-05 11:36:23,147 [INFO] Main - Logging initialized successfully
+2025-12-05 11:38:49,368 [INFO] Main - Logging initialized successfully
+2025-12-05 11:39:02,212 [INFO] Main - Logging initialized successfully
+2026-01-12 11:17:36,378 [INFO] Main - Logging initialized successfully
+2026-01-12 11:18:00,202 [INFO] Main - Logging initialized successfully
+2026-01-12 11:18:21,672 [INFO] Main - Logging initialized successfully
+2026-01-12 11:20:26,303 [INFO] Main - Logging initialized successfully
+2026-01-12 11:21:57,788 [INFO] Main - Logging initialized successfully
+2026-01-12 11:22:08,670 [INFO] Main - Logging initialized successfully
+2026-01-12 11:48:41,824 [INFO] Main - Logging initialized successfully
+2026-01-12 11:48:42,551 [INFO] Main - Logging initialized successfully
+2026-01-12 11:49:20,437 [INFO] Main - Logging initialized successfully
+2026-01-12 11:49:25,847 [INFO] Main - Logging initialized successfully
+2026-01-12 11:54:38,516 [INFO] Main - Logging initialized successfully
+2026-01-12 11:57:22,011 [INFO] Main - Logging initialized successfully
+2026-01-12 11:57:25,568 [INFO] Main - Logging initialized successfully
+2026-01-12 11:58:09,633 [INFO] Main - Logging initialized successfully
+2026-01-12 11:58:09,977 [INFO] Main - Logging initialized successfully
+2026-01-12 11:58:57,413 [INFO] Main - Logging initialized successfully
+2026-01-12 11:58:57,640 [INFO] Main - Logging initialized successfully
+2026-01-12 11:59:40,493 [INFO] Main - Logging initialized successfully
+2026-01-12 11:59:41,012 [INFO] Main - Logging initialized successfully
+2026-01-12 12:02:39,504 [INFO] Main - Logging initialized successfully
+2026-01-12 12:04:00,881 [INFO] Main - Logging initialized successfully
+2026-01-12 12:05:05,120 [INFO] Main - Logging initialized successfully
+2026-01-12 12:07:22,457 [INFO] Main - Logging initialized successfully
+2026-01-12 12:12:09,394 [INFO] Main - Logging initialized successfully
+2026-01-12 12:21:46,255 [INFO] Main - Logging initialized successfully
+2026-01-12 12:22:47,253 [INFO] Main - Incoming request: POST http://localhost:8000/token
+2026-01-12 12:22:47,333 [ERROR] Main - Middleware caught error: (psycopg2.errors.UndefinedColumn) column users.is_active does not exist
+LINE 1: ...role AS users_role, users.status AS users_status, users.is_a...
+                                                             ^
+
+[SQL: SELECT users.id AS users_id, users.firstname AS users_firstname, users.lastname AS users_lastname, users.email AS users_email, users.password AS users_password, users.dob AS users_dob, users.contactno AS users_contactno, users.place AS users_place, users.city AS users_city, users.state AS users_state, users.pincode AS users_pincode, users.gender AS users_gender, users.role AS users_role, users.status AS users_status, users.is_active AS users_is_active, users.account_created_at AS users_account_created_at 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'email_1': 'admin@gmail.com', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2026-01-12 12:22:55,202 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/api/forgot-password
+2026-01-12 12:22:55,203 [INFO] Main - Response status: 200
+2026-01-12 12:22:55,206 [INFO] Main - Incoming request: POST http://localhost:8000/api/forgot-password
+2026-01-12 12:22:55,218 [ERROR] Main - Middleware caught error: (psycopg2.errors.UndefinedColumn) column users.is_active does not exist
+LINE 1: ...role AS users_role, users.status AS users_status, users.is_a...
+                                                             ^
+
+[SQL: SELECT users.id AS users_id, users.firstname AS users_firstname, users.lastname AS users_lastname, users.email AS users_email, users.password AS users_password, users.dob AS users_dob, users.contactno AS users_contactno, users.place AS users_place, users.city AS users_city, users.state AS users_state, users.pincode AS users_pincode, users.gender AS users_gender, users.role AS users_role, users.status AS users_status, users.is_active AS users_is_active, users.account_created_at AS users_account_created_at 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'email_1': 'go.teamchai@gmail.com', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2026-01-12 12:25:59,366 [INFO] Main - Incoming request: GET http://localhost:8000/
+2026-01-12 12:25:59,368 [INFO] Main - Health check called
+2026-01-12 12:25:59,368 [INFO] Main - Response status: 200
+2026-01-12 12:26:33,781 [INFO] Main - Incoming request: GET http://localhost:8000/
+2026-01-12 12:26:33,782 [INFO] Main - Health check called
+2026-01-12 12:26:33,783 [INFO] Main - Response status: 200
+2026-01-12 12:27:14,035 [INFO] Main - Incoming request: POST http://localhost:8000/api/forgot-password
+2026-01-12 12:27:14,038 [ERROR] Main - Middleware caught error: (psycopg2.errors.UndefinedColumn) column users.is_active does not exist
+LINE 1: ...role AS users_role, users.status AS users_status, users.is_a...
+                                                             ^
+
+[SQL: SELECT users.id AS users_id, users.firstname AS users_firstname, users.lastname AS users_lastname, users.email AS users_email, users.password AS users_password, users.dob AS users_dob, users.contactno AS users_contactno, users.place AS users_place, users.city AS users_city, users.state AS users_state, users.pincode AS users_pincode, users.gender AS users_gender, users.role AS users_role, users.status AS users_status, users.is_active AS users_is_active, users.account_created_at AS users_account_created_at 
+FROM users 
+WHERE users.email = %(email_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'email_1': 'test@example.com', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2026-01-12 12:29:51,981 [INFO] Main - Logging initialized successfully
+2026-01-12 12:30:24,219 [INFO] Main - Logging initialized successfully
+2026-01-12 12:30:50,594 [INFO] Main - Logging initialized successfully
+2026-01-12 12:31:14,121 [INFO] Main - Logging initialized successfully
+2026-01-12 12:31:47,728 [INFO] Main - Logging initialized successfully
+2026-01-12 12:32:22,651 [INFO] Main - Logging initialized successfully
+2026-01-12 12:32:42,635 [INFO] Main - Logging initialized successfully
+2026-01-12 12:33:10,948 [INFO] Main - Logging initialized successfully
+2026-01-12 12:34:16,055 [INFO] Main - Logging initialized successfully
+2026-01-12 12:35:53,814 [INFO] Main - Logging initialized successfully
+2026-01-12 12:36:50,383 [INFO] Main - Logging initialized successfully
+2026-01-12 12:37:31,531 [INFO] Main - Logging initialized successfully
+2026-01-12 12:37:48,784 [INFO] Main - Logging initialized successfully
+2026-01-12 12:38:10,139 [INFO] Main - Logging initialized successfully
+2026-01-12 12:38:34,004 [INFO] Main - Logging initialized successfully
+2026-01-12 12:39:08,272 [INFO] Main - Logging initialized successfully
+2026-01-12 12:39:26,648 [INFO] Main - Logging initialized successfully
+2026-01-12 12:39:44,745 [INFO] Main - Logging initialized successfully
+2026-01-12 12:40:01,553 [INFO] Main - Logging initialized successfully
+2026-01-12 12:40:17,838 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/api/forgot-password
+2026-01-12 12:40:17,840 [INFO] Main - Response status: 200
+2026-01-12 12:40:17,846 [INFO] Main - Incoming request: POST http://localhost:8000/api/forgot-password
+2026-01-12 12:40:17,907 [INFO] Main - Attempting forgot password for go.teamchai@gmail.com
+2026-01-12 12:40:21,968 [INFO] Main - Response status: 200
+2026-01-12 12:41:13,947 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/api/reset-password
+2026-01-12 12:41:13,949 [INFO] Main - Response status: 200
+2026-01-12 12:41:13,956 [INFO] Main - Incoming request: POST http://localhost:8000/api/reset-password
+2026-01-12 12:41:14,479 [INFO] Main - Response status: 200
+2026-01-12 12:41:43,384 [INFO] Main - Incoming request: POST http://localhost:8000/token
+2026-01-12 12:41:43,817 [INFO] Main - Response status: 401
+2026-01-12 12:41:52,195 [INFO] Main - Incoming request: POST http://localhost:8000/token
+2026-01-12 12:41:52,620 [INFO] Main - Response status: 200
+2026-01-12 12:41:52,657 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/users/me
+2026-01-12 12:41:52,657 [INFO] Main - Response status: 200
+2026-01-12 12:41:52,661 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 12:41:52,687 [ERROR] Main - Middleware caught error: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'dob'), 'msg': 'Input should be a valid string', 'input': datetime.date(2010, 1, 1)}
+
+  File "E:\ssk-etv\etv\back_end\etv\routers\user_router.py", line 43, in read_users_me
+    GET /users/me
+2026-01-12 12:41:55,791 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 12:41:55,798 [ERROR] Main - Middleware caught error: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'dob'), 'msg': 'Input should be a valid string', 'input': datetime.date(2010, 1, 1)}
+
+  File "E:\ssk-etv\etv\back_end\etv\routers\user_router.py", line 43, in read_users_me
+    GET /users/me
+2026-01-12 12:41:56,053 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 12:41:56,063 [ERROR] Main - Middleware caught error: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'dob'), 'msg': 'Input should be a valid string', 'input': datetime.date(2010, 1, 1)}
+
+  File "E:\ssk-etv\etv\back_end\etv\routers\user_router.py", line 43, in read_users_me
+    GET /users/me
+2026-01-12 12:42:10,348 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 12:42:10,363 [ERROR] Main - Middleware caught error: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'dob'), 'msg': 'Input should be a valid string', 'input': datetime.date(2010, 1, 1)}
+
+  File "E:\ssk-etv\etv\back_end\etv\routers\user_router.py", line 43, in read_users_me
+    GET /users/me
+2026-01-12 12:42:11,755 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 12:42:11,761 [ERROR] Main - Middleware caught error: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'dob'), 'msg': 'Input should be a valid string', 'input': datetime.date(2010, 1, 1)}
+
+  File "E:\ssk-etv\etv\back_end\etv\routers\user_router.py", line 43, in read_users_me
+    GET /users/me
+2026-01-12 12:42:12,007 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 12:42:12,014 [ERROR] Main - Middleware caught error: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'dob'), 'msg': 'Input should be a valid string', 'input': datetime.date(2010, 1, 1)}
+
+  File "E:\ssk-etv\etv\back_end\etv\routers\user_router.py", line 43, in read_users_me
+    GET /users/me
+2026-01-12 12:42:12,101 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 12:42:12,113 [ERROR] Main - Middleware caught error: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'dob'), 'msg': 'Input should be a valid string', 'input': datetime.date(2010, 1, 1)}
+
+  File "E:\ssk-etv\etv\back_end\etv\routers\user_router.py", line 43, in read_users_me
+    GET /users/me
+2026-01-12 12:42:12,464 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 12:42:12,472 [ERROR] Main - Middleware caught error: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'dob'), 'msg': 'Input should be a valid string', 'input': datetime.date(2010, 1, 1)}
+
+  File "E:\ssk-etv\etv\back_end\etv\routers\user_router.py", line 43, in read_users_me
+    GET /users/me
+2026-01-12 12:42:16,589 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 12:42:16,604 [ERROR] Main - Middleware caught error: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'dob'), 'msg': 'Input should be a valid string', 'input': datetime.date(2010, 1, 1)}
+
+  File "E:\ssk-etv\etv\back_end\etv\routers\user_router.py", line 43, in read_users_me
+    GET /users/me
+2026-01-12 12:42:16,907 [INFO] Main - Incoming request: GET http://localhost:8000/languages
+2026-01-12 12:42:16,908 [INFO] Main - Response status: 404
+2026-01-12 12:42:21,450 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 12:42:21,461 [ERROR] Main - Middleware caught error: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'dob'), 'msg': 'Input should be a valid string', 'input': datetime.date(2010, 1, 1)}
+
+  File "E:\ssk-etv\etv\back_end\etv\routers\user_router.py", line 43, in read_users_me
+    GET /users/me
+2026-01-12 12:42:21,503 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 12:42:21,510 [ERROR] Main - Middleware caught error: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'dob'), 'msg': 'Input should be a valid string', 'input': datetime.date(2010, 1, 1)}
+
+  File "E:\ssk-etv\etv\back_end\etv\routers\user_router.py", line 43, in read_users_me
+    GET /users/me
+2026-01-12 12:42:22,791 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 12:42:22,797 [ERROR] Main - Middleware caught error: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'dob'), 'msg': 'Input should be a valid string', 'input': datetime.date(2010, 1, 1)}
+
+  File "E:\ssk-etv\etv\back_end\etv\routers\user_router.py", line 43, in read_users_me
+    GET /users/me
+2026-01-12 12:42:23,042 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 12:42:23,048 [ERROR] Main - Middleware caught error: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'dob'), 'msg': 'Input should be a valid string', 'input': datetime.date(2010, 1, 1)}
+
+  File "E:\ssk-etv\etv\back_end\etv\routers\user_router.py", line 43, in read_users_me
+    GET /users/me
+2026-01-12 12:42:24,036 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/admin/saved-records
+2026-01-12 12:42:24,037 [INFO] Main - Response status: 200
+2026-01-12 12:42:24,043 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 12:42:24,053 [ERROR] Main - Middleware caught error: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'dob'), 'msg': 'Input should be a valid string', 'input': datetime.date(2010, 1, 1)}
+
+  File "E:\ssk-etv\etv\back_end\etv\routers\user_router.py", line 43, in read_users_me
+    GET /users/me
+2026-01-12 12:42:24,341 [INFO] Main - Incoming request: GET http://localhost:8000/admin/saved-records
+2026-01-12 12:42:24,343 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 12:42:24,344 [INFO] Main - Response status: 404
+2026-01-12 12:42:24,351 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/admin/saved-records
+2026-01-12 12:42:24,353 [INFO] Main - Response status: 200
+2026-01-12 12:42:24,359 [ERROR] Main - Middleware caught error: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'dob'), 'msg': 'Input should be a valid string', 'input': datetime.date(2010, 1, 1)}
+
+  File "E:\ssk-etv\etv\back_end\etv\routers\user_router.py", line 43, in read_users_me
+    GET /users/me
+2026-01-12 12:42:24,387 [INFO] Main - Incoming request: GET http://localhost:8000/admin/saved-records
+2026-01-12 12:42:24,392 [INFO] Main - Response status: 404
+2026-01-12 12:42:27,377 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 12:42:27,390 [ERROR] Main - Middleware caught error: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'dob'), 'msg': 'Input should be a valid string', 'input': datetime.date(2010, 1, 1)}
+
+  File "E:\ssk-etv\etv\back_end\etv\routers\user_router.py", line 43, in read_users_me
+    GET /users/me
+2026-01-12 12:42:27,426 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 12:42:27,436 [ERROR] Main - Middleware caught error: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'dob'), 'msg': 'Input should be a valid string', 'input': datetime.date(2010, 1, 1)}
+
+  File "E:\ssk-etv\etv\back_end\etv\routers\user_router.py", line 43, in read_users_me
+    GET /users/me
+2026-01-12 12:42:28,285 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 12:42:28,304 [ERROR] Main - Middleware caught error: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'dob'), 'msg': 'Input should be a valid string', 'input': datetime.date(2010, 1, 1)}
+
+  File "E:\ssk-etv\etv\back_end\etv\routers\user_router.py", line 43, in read_users_me
+    GET /users/me
+2026-01-12 12:42:53,296 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 12:42:53,308 [ERROR] Main - Middleware caught error: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'dob'), 'msg': 'Input should be a valid string', 'input': datetime.date(2010, 1, 1)}
+
+  File "E:\ssk-etv\etv\back_end\etv\routers\user_router.py", line 43, in read_users_me
+    GET /users/me
+2026-01-12 12:42:53,641 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 12:42:53,650 [ERROR] Main - Middleware caught error: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'dob'), 'msg': 'Input should be a valid string', 'input': datetime.date(2010, 1, 1)}
+
+  File "E:\ssk-etv\etv\back_end\etv\routers\user_router.py", line 43, in read_users_me
+    GET /users/me
+2026-01-12 12:43:38,811 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 12:43:38,818 [ERROR] Main - Middleware caught error: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'dob'), 'msg': 'Input should be a valid string', 'input': datetime.date(2010, 1, 1)}
+
+  File "E:\ssk-etv\etv\back_end\etv\routers\user_router.py", line 43, in read_users_me
+    GET /users/me
+2026-01-12 12:43:39,165 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 12:43:39,173 [ERROR] Main - Middleware caught error: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'dob'), 'msg': 'Input should be a valid string', 'input': datetime.date(2010, 1, 1)}
+
+  File "E:\ssk-etv\etv\back_end\etv\routers\user_router.py", line 43, in read_users_me
+    GET /users/me
+2026-01-12 12:43:40,347 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 12:43:40,359 [ERROR] Main - Middleware caught error: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'dob'), 'msg': 'Input should be a valid string', 'input': datetime.date(2010, 1, 1)}
+
+  File "E:\ssk-etv\etv\back_end\etv\routers\user_router.py", line 43, in read_users_me
+    GET /users/me
+2026-01-12 12:43:40,704 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 12:43:40,710 [ERROR] Main - Middleware caught error: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'dob'), 'msg': 'Input should be a valid string', 'input': datetime.date(2010, 1, 1)}
+
+  File "E:\ssk-etv\etv\back_end\etv\routers\user_router.py", line 43, in read_users_me
+    GET /users/me
+2026-01-12 12:45:55,397 [INFO] Main - Logging initialized successfully
+2026-01-12 12:48:18,972 [INFO] Main - Logging initialized successfully
+2026-01-12 12:48:37,155 [INFO] Main - Logging initialized successfully
+2026-01-12 12:49:02,686 [INFO] Main - Logging initialized successfully
+2026-01-12 12:49:41,239 [INFO] Main - Logging initialized successfully
+2026-01-12 12:52:04,635 [INFO] Main - Logging initialized successfully
+2026-01-12 12:52:37,592 [INFO] Main - Logging initialized successfully
+2026-01-12 12:55:54,521 [INFO] Main - Logging initialized successfully
+2026-01-12 12:56:39,699 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/users/me
+2026-01-12 12:56:39,700 [INFO] Main - Response status: 200
+2026-01-12 12:56:39,703 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 12:56:39,905 [ERROR] Main - Middleware caught error: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'dob'), 'msg': 'Input should be a valid string', 'input': datetime.date(2010, 1, 1)}
+
+  File "E:\ssk-etv\etv\back_end\etv\routers\user_router.py", line 43, in read_users_me
+    GET /users/me
+2026-01-12 12:57:57,692 [INFO] Main - Logging initialized successfully
+2026-01-12 12:58:29,514 [INFO] Main - Logging initialized successfully
+2026-01-12 14:40:33,235 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/users/me
+2026-01-12 14:40:33,243 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/users/me
+2026-01-12 14:40:33,249 [INFO] Main - Response status: 200
+2026-01-12 14:40:33,253 [INFO] Main - Response status: 200
+2026-01-12 14:40:33,258 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 14:40:33,419 [ERROR] Main - Middleware caught error: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'dob'), 'msg': 'Input should be a valid string', 'input': datetime.date(2010, 1, 1)}
+
+  File "E:\ssk-etv\etv\back_end\etv\routers\user_router.py", line 43, in read_users_me
+    GET /users/me
+2026-01-12 14:40:33,475 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 14:40:33,485 [ERROR] Main - Middleware caught error: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'dob'), 'msg': 'Input should be a valid string', 'input': datetime.date(2010, 1, 1)}
+
+  File "E:\ssk-etv\etv\back_end\etv\routers\user_router.py", line 43, in read_users_me
+    GET /users/me
+2026-01-12 15:38:30,907 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/users/me
+2026-01-12 15:38:30,908 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/users/me
+2026-01-12 15:38:30,908 [INFO] Main - Response status: 200
+2026-01-12 15:38:30,910 [INFO] Main - Response status: 200
+2026-01-12 15:38:30,911 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 15:38:30,916 [ERROR] Main - Middleware caught error: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'dob'), 'msg': 'Input should be a valid string', 'input': datetime.date(2010, 1, 1)}
+
+  File "E:\ssk-etv\etv\back_end\etv\routers\user_router.py", line 43, in read_users_me
+    GET /users/me
+2026-01-12 15:38:30,932 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 15:38:30,937 [ERROR] Main - Middleware caught error: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'dob'), 'msg': 'Input should be a valid string', 'input': datetime.date(2010, 1, 1)}
+
+  File "E:\ssk-etv\etv\back_end\etv\routers\user_router.py", line 43, in read_users_me
+    GET /users/me
+2026-01-12 15:38:32,084 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 15:38:32,089 [ERROR] Main - Middleware caught error: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'dob'), 'msg': 'Input should be a valid string', 'input': datetime.date(2010, 1, 1)}
+
+  File "E:\ssk-etv\etv\back_end\etv\routers\user_router.py", line 43, in read_users_me
+    GET /users/me
+2026-01-12 15:38:32,411 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 15:38:32,416 [ERROR] Main - Middleware caught error: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'dob'), 'msg': 'Input should be a valid string', 'input': datetime.date(2010, 1, 1)}
+
+  File "E:\ssk-etv\etv\back_end\etv\routers\user_router.py", line 43, in read_users_me
+    GET /users/me
+2026-01-12 15:39:37,810 [INFO] Main - Logging initialized successfully
+2026-01-12 15:39:57,624 [INFO] Main - Logging initialized successfully
+2026-01-12 15:40:18,814 [INFO] Main - Logging initialized successfully
+2026-01-12 15:44:00,323 [INFO] Main - Logging initialized successfully
+2026-01-12 15:44:18,670 [INFO] Main - Logging initialized successfully
+2026-01-12 15:45:17,305 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 15:45:17,391 [ERROR] Main - Middleware caught error: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'dob'), 'msg': 'Input should be a valid string', 'input': datetime.date(2010, 1, 1)}
+
+  File "E:\ssk-etv\etv\back_end\etv\routers\user_router.py", line 43, in read_users_me
+    GET /users/me
+2026-01-12 15:45:17,534 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 15:45:17,542 [ERROR] Main - Middleware caught error: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'dob'), 'msg': 'Input should be a valid string', 'input': datetime.date(2010, 1, 1)}
+
+  File "E:\ssk-etv\etv\back_end\etv\routers\user_router.py", line 43, in read_users_me
+    GET /users/me
+2026-01-12 15:45:29,914 [INFO] Main - Incoming request: POST http://localhost:8000/token
+2026-01-12 15:45:30,327 [INFO] Main - Response status: 200
+2026-01-12 15:45:30,333 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 15:45:30,337 [ERROR] Main - Middleware caught error: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'dob'), 'msg': 'Input should be a valid string', 'input': datetime.date(2010, 1, 1)}
+
+  File "E:\ssk-etv\etv\back_end\etv\routers\user_router.py", line 43, in read_users_me
+    GET /users/me
+2026-01-12 15:45:30,672 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 15:45:30,679 [ERROR] Main - Middleware caught error: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'dob'), 'msg': 'Input should be a valid string', 'input': datetime.date(2010, 1, 1)}
+
+  File "E:\ssk-etv\etv\back_end\etv\routers\user_router.py", line 43, in read_users_me
+    GET /users/me
+2026-01-12 15:45:35,278 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 15:45:35,286 [ERROR] Main - Middleware caught error: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'dob'), 'msg': 'Input should be a valid string', 'input': datetime.date(2010, 1, 1)}
+
+  File "E:\ssk-etv\etv\back_end\etv\routers\user_router.py", line 43, in read_users_me
+    GET /users/me
+2026-01-12 15:45:35,624 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 15:45:35,632 [ERROR] Main - Middleware caught error: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'dob'), 'msg': 'Input should be a valid string', 'input': datetime.date(2010, 1, 1)}
+
+  File "E:\ssk-etv\etv\back_end\etv\routers\user_router.py", line 43, in read_users_me
+    GET /users/me
+2026-01-12 15:45:59,968 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 15:45:59,979 [ERROR] Main - Middleware caught error: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'dob'), 'msg': 'Input should be a valid string', 'input': datetime.date(2010, 1, 1)}
+
+  File "E:\ssk-etv\etv\back_end\etv\routers\user_router.py", line 43, in read_users_me
+    GET /users/me
+2026-01-12 15:47:08,158 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 15:47:08,164 [ERROR] Main - Middleware caught error: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'dob'), 'msg': 'Input should be a valid string', 'input': datetime.date(2010, 1, 1)}
+
+  File "E:\ssk-etv\etv\back_end\etv\routers\user_router.py", line 43, in read_users_me
+    GET /users/me
+2026-01-12 15:55:12,649 [INFO] Main - Incoming request: POST http://localhost:8000/token
+2026-01-12 15:55:13,070 [INFO] Main - Response status: 200
+2026-01-12 15:55:13,075 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/users/me
+2026-01-12 15:55:13,075 [INFO] Main - Response status: 200
+2026-01-12 15:55:13,078 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 15:55:13,086 [ERROR] Main - Middleware caught error: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'dob'), 'msg': 'Input should be a valid string', 'input': datetime.date(2010, 1, 1)}
+
+  File "E:\ssk-etv\etv\back_end\etv\routers\user_router.py", line 43, in read_users_me
+    GET /users/me
+2026-01-12 15:55:13,118 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 15:55:13,126 [ERROR] Main - Middleware caught error: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'dob'), 'msg': 'Input should be a valid string', 'input': datetime.date(2010, 1, 1)}
+
+  File "E:\ssk-etv\etv\back_end\etv\routers\user_router.py", line 43, in read_users_me
+    GET /users/me
+2026-01-12 15:56:40,095 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 15:56:40,101 [ERROR] Main - Middleware caught error: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'dob'), 'msg': 'Input should be a valid string', 'input': datetime.date(2010, 1, 1)}
+
+  File "E:\ssk-etv\etv\back_end\etv\routers\user_router.py", line 43, in read_users_me
+    GET /users/me
+2026-01-12 15:56:40,349 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 15:56:40,358 [ERROR] Main - Middleware caught error: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'dob'), 'msg': 'Input should be a valid string', 'input': datetime.date(2010, 1, 1)}
+
+  File "E:\ssk-etv\etv\back_end\etv\routers\user_router.py", line 43, in read_users_me
+    GET /users/me
+2026-01-12 15:56:41,893 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 15:56:41,904 [ERROR] Main - Middleware caught error: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'dob'), 'msg': 'Input should be a valid string', 'input': datetime.date(2010, 1, 1)}
+
+  File "E:\ssk-etv\etv\back_end\etv\routers\user_router.py", line 43, in read_users_me
+    GET /users/me
+2026-01-12 15:56:43,967 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 15:56:43,975 [ERROR] Main - Middleware caught error: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'dob'), 'msg': 'Input should be a valid string', 'input': datetime.date(2010, 1, 1)}
+
+  File "E:\ssk-etv\etv\back_end\etv\routers\user_router.py", line 43, in read_users_me
+    GET /users/me
+2026-01-12 15:56:44,216 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 15:56:44,225 [ERROR] Main - Middleware caught error: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'dob'), 'msg': 'Input should be a valid string', 'input': datetime.date(2010, 1, 1)}
+
+  File "E:\ssk-etv\etv\back_end\etv\routers\user_router.py", line 43, in read_users_me
+    GET /users/me
+2026-01-12 16:00:27,673 [INFO] Main - Logging initialized successfully
+2026-01-12 16:01:00,898 [INFO] Main - Logging initialized successfully
+2026-01-12 16:01:24,962 [INFO] Main - Logging initialized successfully
+2026-01-12 16:02:51,540 [INFO] Main - Logging initialized successfully
+2026-01-12 16:03:07,255 [INFO] Main - Logging initialized successfully
+2026-01-12 16:03:23,259 [INFO] Main - Logging initialized successfully
+2026-01-12 16:44:55,606 [INFO] Main - Logging initialized successfully
+2026-01-12 16:45:11,164 [INFO] Main - Logging initialized successfully
+2026-01-12 16:45:27,938 [INFO] Main - Logging initialized successfully
+2026-01-12 16:45:39,100 [INFO] Main - Logging initialized successfully
+2026-01-12 16:45:43,586 [INFO] Main - Logging initialized successfully
+2026-01-12 16:45:55,364 [INFO] Main - Logging initialized successfully
+2026-01-12 16:46:16,474 [INFO] Main - Logging initialized successfully
+2026-01-12 16:46:20,873 [INFO] Main - Logging initialized successfully
+2026-01-12 16:48:11,909 [INFO] Main - Logging initialized successfully
+2026-01-12 16:48:34,492 [INFO] Main - Logging initialized successfully
+2026-01-12 16:48:44,661 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/users/me
+2026-01-12 16:48:44,665 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/users/me
+2026-01-12 16:48:44,670 [INFO] Main - Response status: 200
+2026-01-12 16:48:44,675 [INFO] Main - Response status: 200
+2026-01-12 16:48:44,681 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 16:48:45,083 [INFO] Main - Response status: 200
+2026-01-12 16:48:45,087 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 16:48:45,095 [INFO] Main - Response status: 200
+2026-01-12 16:48:45,104 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/user/uploaded-audio-files
+2026-01-12 16:48:45,104 [INFO] Main - Response status: 200
+2026-01-12 16:48:45,109 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-12 16:48:45,130 [INFO] Main - Response status: 200
+2026-01-12 16:48:51,821 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 16:48:51,832 [INFO] Main - Response status: 200
+2026-01-12 16:48:51,998 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 16:48:51,999 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/tts/uploads
+2026-01-12 16:48:52,000 [INFO] Main - Response status: 200
+2026-01-12 16:48:52,004 [INFO] Main - Incoming request: GET http://localhost:8000/tts/uploads
+2026-01-12 16:48:52,010 [INFO] Main - Response status: 200
+2026-01-12 16:48:52,097 [INFO] Main - Response status: 200
+2026-01-12 16:48:53,265 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 16:48:53,271 [INFO] Main - Response status: 200
+2026-01-12 16:48:53,275 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 16:48:53,283 [INFO] Main - Response status: 200
+2026-01-12 16:48:53,316 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-12 16:48:53,321 [INFO] Main - Response status: 200
+2026-01-12 16:48:54,486 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 16:48:54,489 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/admin/saved-records
+2026-01-12 16:48:54,492 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/admin/saved-records
+2026-01-12 16:48:54,492 [INFO] Main - Response status: 200
+2026-01-12 16:48:54,502 [INFO] Main - Response status: 200
+2026-01-12 16:48:54,506 [INFO] Main - Incoming request: GET http://localhost:8000/admin/saved-records
+2026-01-12 16:48:54,523 [INFO] Main - Response status: 200
+2026-01-12 16:48:54,532 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 16:48:54,542 [INFO] Main - Response status: 200
+2026-01-12 16:48:54,561 [INFO] Main - Response status: 200
+2026-01-12 16:48:54,563 [INFO] Main - Incoming request: GET http://localhost:8000/admin/saved-records
+2026-01-12 16:48:54,573 [INFO] Main - Response status: 200
+2026-01-12 16:48:58,270 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 16:48:58,277 [INFO] Main - Response status: 200
+2026-01-12 16:48:58,280 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 16:48:58,286 [INFO] Main - Response status: 200
+2026-01-12 16:48:58,436 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-12 16:48:58,442 [INFO] Main - Response status: 200
+2026-01-12 16:49:00,721 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 16:49:00,732 [INFO] Main - Response status: 200
+2026-01-12 16:49:00,747 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 16:49:00,748 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/admin/bulk-uploads
+2026-01-12 16:49:00,750 [INFO] Main - Response status: 200
+2026-01-12 16:49:00,754 [INFO] Main - Incoming request: GET http://localhost:8000/admin/bulk-uploads
+2026-01-12 16:49:00,757 [INFO] Main - Response status: 200
+2026-01-12 16:49:00,776 [INFO] Main - Response status: 200
+2026-01-12 16:49:04,571 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 16:49:04,584 [INFO] Main - Response status: 200
+2026-01-12 16:49:04,591 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 16:49:04,598 [INFO] Main - Response status: 200
+2026-01-12 16:49:04,812 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-12 16:49:04,817 [INFO] Main - Response status: 200
+2026-01-12 16:49:06,709 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 16:49:06,718 [INFO] Main - Response status: 200
+2026-01-12 16:49:06,734 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 16:49:06,736 [INFO] Main - Incoming request: GET http://localhost:8000/tts/uploads
+2026-01-12 16:49:06,746 [INFO] Main - Response status: 200
+2026-01-12 16:49:06,747 [INFO] Main - Response status: 200
+2026-01-12 16:49:15,525 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 16:49:15,527 [INFO] Main - Incoming request: GET http://localhost:8000/languages
+2026-01-12 16:49:15,533 [INFO] Main - Response status: 200
+2026-01-12 16:49:15,538 [INFO] Main - Response status: 200
+2026-01-12 16:49:15,549 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 16:49:15,554 [INFO] Main - Response status: 200
+2026-01-12 16:49:17,541 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 16:49:17,547 [INFO] Main - Response status: 200
+2026-01-12 16:49:17,554 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 16:49:17,565 [INFO] Main - Response status: 200
+2026-01-12 16:49:17,730 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-12 16:49:17,737 [INFO] Main - Response status: 200
+2026-01-12 16:49:18,775 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 16:49:18,779 [INFO] Main - Response status: 200
+2026-01-12 16:49:18,931 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 16:49:18,934 [INFO] Main - Incoming request: GET http://localhost:8000/admin/bulk-uploads
+2026-01-12 16:49:18,944 [INFO] Main - Response status: 200
+2026-01-12 16:49:18,947 [INFO] Main - Response status: 200
+2026-01-12 16:49:36,016 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/admin/bulk-upload
+2026-01-12 16:49:36,016 [INFO] Main - Response status: 200
+2026-01-12 16:49:36,025 [INFO] Main - Incoming request: POST http://localhost:8000/admin/bulk-upload
+2026-01-12 16:49:36,113 [INFO] Main - Response status: 200
+2026-01-12 16:49:36,123 [INFO] Main - Incoming request: GET http://localhost:8000/admin/bulk-uploads
+2026-01-12 16:49:36,139 [INFO] Main - Response status: 200
+2026-01-12 16:49:40,012 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 16:49:40,025 [INFO] Main - Response status: 200
+2026-01-12 16:49:40,030 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 16:49:40,037 [INFO] Main - Response status: 200
+2026-01-12 16:49:40,053 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-12 16:49:40,059 [INFO] Main - Response status: 200
+2026-01-12 16:49:45,263 [INFO] Main - Incoming request: GET http://localhost:8000/uploads/07a9e8323e954b849d7a44f4be1c7ff8.wav
+2026-01-12 16:49:45,438 [INFO] Main - Response status: 206
+2026-01-12 16:50:01,439 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 16:50:01,440 [INFO] Main - Incoming request: GET http://localhost:8000/admin/saved-records
+2026-01-12 16:50:01,449 [INFO] Main - Response status: 200
+2026-01-12 16:50:01,454 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 16:50:01,455 [INFO] Main - Response status: 200
+2026-01-12 16:50:01,460 [INFO] Main - Incoming request: GET http://localhost:8000/admin/saved-records
+2026-01-12 16:50:01,480 [INFO] Main - Response status: 200
+2026-01-12 16:50:01,484 [INFO] Main - Response status: 200
+2026-01-12 16:50:12,581 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/admin/saved-records/21/download
+2026-01-12 16:50:12,581 [INFO] Main - Response status: 200
+2026-01-12 16:50:12,583 [INFO] Main - Incoming request: GET http://localhost:8000/admin/saved-records/21/download
+2026-01-12 16:50:12,585 [INFO] Main - Response status: 404
+2026-01-12 16:50:16,669 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/admin/saved-records/22/download
+2026-01-12 16:50:16,672 [INFO] Main - Response status: 200
+2026-01-12 16:50:16,676 [INFO] Main - Incoming request: GET http://localhost:8000/admin/saved-records/22/download
+2026-01-12 16:50:16,679 [INFO] Main - Response status: 404
+2026-01-12 16:50:24,139 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/admin/saved-records/19/reassign
+2026-01-12 16:50:24,140 [INFO] Main - Response status: 200
+2026-01-12 16:50:24,150 [INFO] Main - Incoming request: POST http://localhost:8000/admin/saved-records/19/reassign
+2026-01-12 16:50:24,153 [INFO] Main - Response status: 404
+2026-01-12 16:50:27,176 [INFO] Main - Incoming request: POST http://localhost:8000/admin/saved-records/19/reassign
+2026-01-12 16:50:27,179 [INFO] Main - Response status: 404
+2026-01-12 16:50:29,747 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/admin/saved-records/22/reassign
+2026-01-12 16:50:29,748 [INFO] Main - Response status: 200
+2026-01-12 16:50:29,752 [INFO] Main - Incoming request: POST http://localhost:8000/admin/saved-records/22/reassign
+2026-01-12 16:50:29,755 [INFO] Main - Response status: 404
+2026-01-12 16:50:59,679 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 16:50:59,684 [INFO] Main - Response status: 200
+2026-01-12 16:50:59,689 [INFO] Main - Incoming request: GET http://localhost:8000/admin/saved-records
+2026-01-12 16:50:59,698 [INFO] Main - Response status: 200
+2026-01-12 16:50:59,707 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 16:50:59,712 [INFO] Main - Response status: 200
+2026-01-12 16:50:59,714 [INFO] Main - Incoming request: GET http://localhost:8000/admin/saved-records
+2026-01-12 16:50:59,723 [INFO] Main - Response status: 200
+2026-01-12 16:52:06,606 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 16:52:06,608 [INFO] Main - Incoming request: GET http://localhost:8000/admin/saved-records
+2026-01-12 16:52:06,627 [INFO] Main - Response status: 200
+2026-01-12 16:52:06,629 [INFO] Main - Response status: 200
+2026-01-12 16:52:06,635 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 16:52:06,639 [INFO] Main - Incoming request: GET http://localhost:8000/admin/saved-records
+2026-01-12 16:52:06,647 [INFO] Main - Response status: 200
+2026-01-12 16:52:06,647 [INFO] Main - Response status: 200
+2026-01-12 16:52:08,697 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 16:52:08,713 [INFO] Main - Response status: 200
+2026-01-12 16:52:08,717 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 16:52:08,726 [INFO] Main - Response status: 200
+2026-01-12 16:52:08,747 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-12 16:52:08,757 [INFO] Main - Response status: 200
+2026-01-12 16:52:11,220 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 16:52:11,228 [INFO] Main - Response status: 200
+2026-01-12 16:52:11,242 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 16:52:11,244 [INFO] Main - Incoming request: GET http://localhost:8000/tts/uploads
+2026-01-12 16:52:11,253 [INFO] Main - Response status: 200
+2026-01-12 16:52:11,255 [INFO] Main - Response status: 200
+2026-01-12 16:52:14,682 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 16:52:14,687 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/tts/admin/records
+2026-01-12 16:52:14,687 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/tts/admin/records
+2026-01-12 16:52:14,693 [INFO] Main - Response status: 200
+2026-01-12 16:52:14,697 [INFO] Main - Response status: 200
+2026-01-12 16:52:14,703 [INFO] Main - Incoming request: GET http://localhost:8000/tts/admin/records
+2026-01-12 16:52:14,706 [INFO] Main - Response status: 404
+2026-01-12 16:52:14,710 [INFO] Main - Response status: 200
+2026-01-12 16:52:14,712 [INFO] Main - Incoming request: GET http://localhost:8000/tts/admin/records
+2026-01-12 16:52:14,716 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 16:52:14,717 [INFO] Main - Response status: 404
+2026-01-12 16:52:14,726 [INFO] Main - Response status: 200
+2026-01-12 16:52:22,571 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 16:52:22,579 [INFO] Main - Response status: 200
+2026-01-12 16:52:22,590 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 16:52:22,600 [INFO] Main - Response status: 200
+2026-01-12 16:52:22,781 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-12 16:52:22,790 [INFO] Main - Response status: 200
+2026-01-12 16:52:24,718 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 16:52:24,726 [INFO] Main - Response status: 200
+2026-01-12 16:52:24,877 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 16:52:24,879 [INFO] Main - Incoming request: GET http://localhost:8000/tts/uploads
+2026-01-12 16:52:24,889 [INFO] Main - Response status: 200
+2026-01-12 16:52:24,890 [INFO] Main - Response status: 200
+2026-01-12 16:53:08,942 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/tts/upload-text
+2026-01-12 16:53:08,944 [INFO] Main - Response status: 200
+2026-01-12 16:53:08,949 [INFO] Main - Incoming request: POST http://localhost:8000/tts/upload-text
+2026-01-12 16:53:08,969 [INFO] Main - Response status: 422
+2026-01-12 16:53:21,766 [INFO] Main - Incoming request: POST http://localhost:8000/tts/upload-text
+2026-01-12 16:53:21,778 [INFO] Main - Response status: 422
+2026-01-12 16:53:52,358 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 16:53:52,371 [INFO] Main - Response status: 200
+2026-01-12 16:53:52,374 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 16:53:52,381 [INFO] Main - Response status: 200
+2026-01-12 16:53:52,543 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-12 16:53:52,548 [INFO] Main - Response status: 200
+2026-01-12 16:54:13,685 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 16:54:13,690 [INFO] Main - Response status: 200
+2026-01-12 16:54:13,701 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 16:54:13,708 [INFO] Main - Response status: 200
+2026-01-12 16:54:13,711 [INFO] Main - Incoming request: GET http://localhost:8000/admin/bulk-uploads
+2026-01-12 16:54:13,723 [INFO] Main - Response status: 200
+2026-01-12 16:55:54,325 [INFO] Main - Incoming request: POST http://localhost:8000/admin/bulk-upload
+2026-01-12 16:55:54,348 [INFO] Main - Response status: 200
+2026-01-12 16:55:54,357 [INFO] Main - Incoming request: GET http://localhost:8000/admin/bulk-uploads
+2026-01-12 16:55:54,366 [INFO] Main - Response status: 200
+2026-01-12 16:55:59,753 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 16:55:59,758 [INFO] Main - Response status: 200
+2026-01-12 16:55:59,761 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 16:55:59,768 [INFO] Main - Response status: 200
+2026-01-12 16:55:59,953 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-12 16:55:59,957 [INFO] Main - Response status: 200
+2026-01-12 16:56:03,550 [INFO] Main - Incoming request: GET http://localhost:8000/uploads/c8d0c360ebaa4b3a9a475524efb47b38.mp3
+2026-01-12 16:56:03,552 [INFO] Main - Response status: 206
+2026-01-12 16:56:09,484 [INFO] Main - Incoming request: GET http://localhost:8000/uploads/c8d0c360ebaa4b3a9a475524efb47b38.mp3
+2026-01-12 16:56:09,493 [INFO] Main - Response status: 304
+2026-01-12 16:56:13,047 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/user/extract-audio-transcription
+2026-01-12 16:56:13,048 [INFO] Main - Response status: 200
+2026-01-12 16:56:13,054 [INFO] Main - Incoming request: POST http://localhost:8000/user/extract-audio-transcription
+2026-01-12 16:56:13,088 [INFO] Main - Response status: 200
+2026-01-12 16:56:13,096 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-12 16:56:13,105 [INFO] Main - Response status: 200
+2026-01-12 16:56:23,305 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-12 16:56:23,316 [INFO] Main - Response status: 200
+2026-01-12 16:56:28,324 [INFO] Main - Incoming request: POST http://localhost:8000/user/extract-audio-transcription
+2026-01-12 16:56:28,332 [INFO] Main - Response status: 200
+2026-01-12 16:56:28,342 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-12 16:56:28,353 [INFO] Main - Response status: 200
+2026-01-12 16:56:37,832 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/user/confirm-audio-transcription
+2026-01-12 16:56:37,834 [INFO] Main - Response status: 200
+2026-01-12 16:56:37,838 [INFO] Main - Incoming request: POST http://localhost:8000/user/confirm-audio-transcription
+2026-01-12 16:56:37,866 [INFO] Main - Response status: 200
+2026-01-12 16:56:37,870 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-12 16:56:37,878 [INFO] Main - Response status: 200
+2026-01-12 16:56:40,430 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 16:56:40,433 [INFO] Main - Incoming request: GET http://localhost:8000/admin/saved-records
+2026-01-12 16:56:40,454 [INFO] Main - Response status: 200
+2026-01-12 16:56:40,455 [INFO] Main - Response status: 200
+2026-01-12 16:56:40,458 [INFO] Main - Incoming request: GET http://localhost:8000/admin/saved-records
+2026-01-12 16:56:40,459 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 16:56:40,467 [INFO] Main - Response status: 200
+2026-01-12 16:56:40,469 [INFO] Main - Response status: 200
+2026-01-12 16:56:43,510 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 16:56:43,518 [INFO] Main - Response status: 200
+2026-01-12 16:56:43,522 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 16:56:43,528 [INFO] Main - Response status: 200
+2026-01-12 16:56:43,550 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-12 16:56:43,554 [INFO] Main - Response status: 200
+2026-01-12 16:56:48,145 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-12 16:56:48,157 [INFO] Main - Response status: 200
+2026-01-12 16:56:53,701 [INFO] Main - Incoming request: GET http://localhost:8000/uploads/c8d0c360ebaa4b3a9a475524efb47b38.mp3
+2026-01-12 16:56:53,706 [INFO] Main - Response status: 304
+2026-01-12 16:59:30,001 [INFO] Main - Logging initialized successfully
+2026-01-12 16:59:30,017 [INFO] Main - Logging initialized successfully
+2026-01-12 17:00:21,576 [INFO] Main - Logging initialized successfully
+2026-01-12 17:00:21,748 [INFO] Main - Logging initialized successfully
+2026-01-12 17:01:08,407 [INFO] Main - Logging initialized successfully
+2026-01-12 17:01:08,411 [INFO] Main - Logging initialized successfully
+2026-01-12 17:01:59,030 [INFO] Main - Logging initialized successfully
+2026-01-12 17:01:59,239 [INFO] Main - Logging initialized successfully
+2026-01-12 17:03:15,452 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/user/uploaded-audio-files
+2026-01-12 17:03:15,454 [INFO] Main - Response status: 200
+2026-01-12 17:03:15,513 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-12 17:03:16,387 [INFO] Main - Response status: 200
+2026-01-12 17:03:22,760 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-12 17:03:22,765 [INFO] Main - Response status: 200
+2026-01-12 17:04:00,341 [INFO] Main - Logging initialized successfully
+2026-01-12 17:04:22,831 [INFO] Main - Logging initialized successfully
+2026-01-12 17:04:24,317 [INFO] Main - Logging initialized successfully
+2026-01-12 17:04:42,461 [INFO] Main - Logging initialized successfully
+2026-01-12 17:05:19,332 [INFO] Main - Logging initialized successfully
+2026-01-12 17:05:23,316 [INFO] Main - Logging initialized successfully
+2026-01-12 17:05:26,594 [INFO] Main - Logging initialized successfully
+2026-01-12 17:06:52,611 [INFO] Main - Logging initialized successfully
+2026-01-12 17:34:02,849 [INFO] Main - Logging initialized successfully
+2026-01-12 17:34:09,236 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/users/me
+2026-01-12 17:34:09,237 [INFO] Main - Response status: 200
+2026-01-12 17:34:09,242 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 17:34:09,651 [INFO] Main - Response status: 200
+2026-01-12 17:34:12,431 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 17:34:12,438 [INFO] Main - Response status: 200
+2026-01-12 17:34:12,441 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 17:34:12,446 [INFO] Main - Response status: 200
+2026-01-12 17:34:12,508 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/user/uploaded-audio-files
+2026-01-12 17:34:12,513 [INFO] Main - Response status: 200
+2026-01-12 17:34:12,519 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-12 17:34:12,544 [INFO] Main - Response status: 200
+2026-01-12 17:34:14,530 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 17:34:14,536 [INFO] Main - Response status: 200
+2026-01-12 17:34:14,575 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/tts/uploads
+2026-01-12 17:34:14,577 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 17:34:14,579 [INFO] Main - Response status: 200
+2026-01-12 17:34:14,584 [INFO] Main - Incoming request: GET http://localhost:8000/tts/uploads
+2026-01-12 17:34:14,679 [INFO] Main - Response status: 200
+2026-01-12 17:34:14,686 [INFO] Main - Response status: 200
+2026-01-12 17:34:21,102 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/tts/upload-text
+2026-01-12 17:34:21,104 [INFO] Main - Response status: 200
+2026-01-12 17:34:21,108 [INFO] Main - Incoming request: POST http://localhost:8000/tts/upload-text
+2026-01-12 17:34:21,171 [ERROR] Main - Middleware caught error: (psycopg2.errors.NotNullViolation) null value in column "file_path" of relation "tts_uploads" violates not-null constraint
+DETAIL:  Failing row contains (31, go.teamchai@gmail.com, typed_text_1768219460779.txt, null, how are you, null, 2026-01-12 12:04:21.142017, uploaded, f, null).
+
+[SQL: INSERT INTO tts_uploads (user_email, filename, file_path, text_content, language, uploaded_at, status, selected_for_processing, selected_at) VALUES (%(user_email)s, %(filename)s, %(file_path)s, %(text_content)s, %(language)s, %(uploaded_at)s, %(status)s, %(selected_for_processing)s, %(selected_at)s) RETURNING tts_uploads.id]
+[parameters: {'user_email': 'go.teamchai@gmail.com', 'filename': 'typed_text_1768219460779.txt', 'file_path': None, 'text_content': 'how are you', 'language': None, 'uploaded_at': datetime.datetime(2026, 1, 12, 12, 4, 21, 142017), 'status': 'uploaded', 'selected_for_processing': False, 'selected_at': None}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-01-12 17:34:58,995 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 17:34:59,004 [INFO] Main - Response status: 200
+2026-01-12 17:34:59,010 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 17:34:59,019 [INFO] Main - Response status: 200
+2026-01-12 17:34:59,035 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-12 17:34:59,047 [INFO] Main - Response status: 200
+2026-01-12 17:35:02,292 [INFO] Main - Incoming request: GET http://localhost:8000/uploads/c8d0c360ebaa4b3a9a475524efb47b38.mp3
+2026-01-12 17:35:02,489 [INFO] Main - Response status: 206
+2026-01-12 17:35:13,952 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-12 17:35:13,958 [INFO] Main - Response status: 200
+2026-01-12 17:38:24,632 [INFO] Main - Incoming request: GET http://localhost:8000/
+2026-01-12 17:38:24,633 [INFO] Main - Health check called
+2026-01-12 17:38:24,634 [INFO] Main - Response status: 200
+2026-01-12 17:38:58,867 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-12 17:38:58,878 [INFO] Main - Response status: 200
+2026-01-12 17:39:22,446 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-12 17:39:22,455 [INFO] Main - Response status: 200
+2026-01-12 17:39:33,060 [INFO] Main - Incoming request: GET http://localhost:8000/uploads/c8d0c360ebaa4b3a9a475524efb47b38.mp3
+2026-01-12 17:39:33,064 [INFO] Main - Response status: 304
+2026-01-12 17:40:21,318 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-12 17:40:21,327 [INFO] Main - Response status: 200
+2026-01-12 17:40:54,248 [INFO] Main - Logging initialized successfully
+2026-01-12 17:41:12,191 [INFO] Main - Logging initialized successfully
+2026-01-12 17:41:31,155 [INFO] Main - Logging initialized successfully
+2026-01-12 17:41:48,139 [INFO] Main - Logging initialized successfully
+2026-01-12 17:42:19,126 [INFO] Main - Logging initialized successfully
+2026-01-12 17:42:58,305 [INFO] Main - Logging initialized successfully
+2026-01-12 17:42:58,386 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-12 17:42:58,457 [INFO] Main - Response status: 200
+2026-01-12 17:43:43,077 [INFO] Main - Logging initialized successfully
+2026-01-12 17:43:59,632 [INFO] Main - Logging initialized successfully
+2026-01-12 17:44:15,724 [INFO] Main - Logging initialized successfully
+2026-01-12 17:45:00,917 [INFO] Main - Logging initialized successfully
+2026-01-12 17:45:43,700 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/user/uploaded-audio-files
+2026-01-12 17:45:43,703 [INFO] Main - Response status: 200
+2026-01-12 17:45:43,708 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-12 17:45:43,791 [INFO] Main - Response status: 200
+2026-01-12 17:45:44,497 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/users/me
+2026-01-12 17:45:44,498 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/users/me
+2026-01-12 17:45:44,498 [INFO] Main - Response status: 200
+2026-01-12 17:45:44,499 [INFO] Main - Response status: 200
+2026-01-12 17:45:44,501 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 17:45:44,535 [INFO] Main - Response status: 200
+2026-01-12 17:45:44,538 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 17:45:44,542 [INFO] Main - Response status: 200
+2026-01-12 17:45:44,668 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-12 17:45:44,676 [INFO] Main - Response status: 200
+2026-01-12 17:45:48,488 [INFO] Main - Incoming request: GET http://localhost:8000/uploads/c8d0c360ebaa4b3a9a475524efb47b38.mp3
+2026-01-12 17:45:48,636 [INFO] Main - Response status: 304
+2026-01-12 17:46:01,616 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-12 17:46:01,625 [INFO] Main - Response status: 200
+2026-01-12 17:46:02,488 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 17:46:02,492 [INFO] Main - Response status: 200
+2026-01-12 17:46:02,496 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 17:46:02,503 [INFO] Main - Response status: 200
+2026-01-12 17:46:02,716 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-12 17:46:02,722 [INFO] Main - Response status: 200
+2026-01-12 17:46:26,702 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-12 17:46:26,711 [INFO] Main - Response status: 200
+2026-01-12 17:46:27,805 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 17:46:27,809 [INFO] Main - Response status: 200
+2026-01-12 17:46:27,822 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 17:46:27,829 [INFO] Main - Response status: 200
+2026-01-12 17:46:27,875 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-12 17:46:27,882 [INFO] Main - Response status: 200
+2026-01-12 17:46:30,240 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 17:46:30,249 [INFO] Main - Response status: 200
+2026-01-12 17:46:30,289 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 17:46:30,291 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/admin/bulk-uploads
+2026-01-12 17:46:30,295 [INFO] Main - Response status: 200
+2026-01-12 17:46:30,303 [INFO] Main - Incoming request: GET http://localhost:8000/admin/bulk-uploads
+2026-01-12 17:46:30,306 [INFO] Main - Response status: 200
+2026-01-12 17:46:30,326 [INFO] Main - Response status: 200
+2026-01-12 17:46:32,534 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 17:46:32,546 [INFO] Main - Response status: 200
+2026-01-12 17:46:32,558 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 17:46:32,565 [INFO] Main - Response status: 200
+2026-01-12 17:46:32,585 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-12 17:46:32,592 [INFO] Main - Response status: 200
+2026-01-12 17:46:53,975 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-12 17:46:53,982 [INFO] Main - Response status: 200
+2026-01-12 17:46:54,903 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 17:46:54,907 [INFO] Main - Response status: 200
+2026-01-12 17:46:54,916 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 17:46:54,921 [INFO] Main - Response status: 200
+2026-01-12 17:46:55,080 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-12 17:46:55,086 [INFO] Main - Response status: 200
+2026-01-12 17:46:55,660 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 17:46:55,670 [INFO] Main - Response status: 200
+2026-01-12 17:46:55,687 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/tts/uploads
+2026-01-12 17:46:55,688 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 17:46:55,689 [INFO] Main - Response status: 200
+2026-01-12 17:46:55,695 [INFO] Main - Incoming request: GET http://localhost:8000/tts/uploads
+2026-01-12 17:46:55,759 [INFO] Main - Response status: 200
+2026-01-12 17:46:55,767 [INFO] Main - Response status: 200
+2026-01-12 17:47:01,883 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/tts/upload-text
+2026-01-12 17:47:01,884 [INFO] Main - Response status: 200
+2026-01-12 17:47:01,887 [INFO] Main - Incoming request: POST http://localhost:8000/tts/upload-text
+2026-01-12 17:47:01,928 [INFO] Main - Response status: 200
+2026-01-12 17:47:01,937 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/tts/select-uploads
+2026-01-12 17:47:01,938 [INFO] Main - Response status: 200
+2026-01-12 17:47:01,942 [INFO] Main - Incoming request: POST http://localhost:8000/tts/select-uploads
+2026-01-12 17:47:01,954 [INFO] Main - Response status: 422
+2026-01-12 17:48:43,187 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 17:48:43,188 [INFO] Main - Incoming request: GET http://localhost:8000/tts/uploads
+2026-01-12 17:48:43,197 [INFO] Main - Response status: 200
+2026-01-12 17:48:43,199 [INFO] Main - Response status: 200
+2026-01-12 17:49:16,715 [INFO] Main - Logging initialized successfully
+2026-01-12 17:49:51,175 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 17:49:51,177 [INFO] Main - Incoming request: GET http://localhost:8000/tts/uploads
+2026-01-12 17:49:51,261 [INFO] Main - Response status: 200
+2026-01-12 17:49:51,262 [INFO] Main - Response status: 200
+2026-01-12 17:50:07,850 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 17:50:07,854 [INFO] Main - Response status: 200
+2026-01-12 17:50:07,857 [INFO] Main - Incoming request: GET http://localhost:8000/tts/uploads
+2026-01-12 17:50:07,864 [INFO] Main - Response status: 200
+2026-01-12 17:50:22,858 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 17:50:22,862 [INFO] Main - Response status: 200
+2026-01-12 17:50:22,867 [INFO] Main - Incoming request: GET http://localhost:8000/tts/uploads
+2026-01-12 17:50:22,872 [INFO] Main - Response status: 200
+2026-01-12 17:52:17,940 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 17:52:17,948 [INFO] Main - Response status: 200
+2026-01-12 17:52:17,986 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 17:52:17,995 [INFO] Main - Response status: 200
+2026-01-12 17:52:17,999 [INFO] Main - Incoming request: GET http://localhost:8000/tts/uploads
+2026-01-12 17:52:18,007 [INFO] Main - Response status: 200
+2026-01-12 17:52:20,868 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/tts/admin/records
+2026-01-12 17:52:20,869 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 17:52:20,870 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/tts/admin/records
+2026-01-12 17:52:20,870 [INFO] Main - Response status: 200
+2026-01-12 17:52:20,874 [INFO] Main - Response status: 200
+2026-01-12 17:52:20,878 [INFO] Main - Incoming request: GET http://localhost:8000/tts/admin/records
+2026-01-12 17:52:20,879 [INFO] Main - Response status: 404
+2026-01-12 17:52:20,883 [INFO] Main - Response status: 200
+2026-01-12 17:52:20,884 [INFO] Main - Incoming request: GET http://localhost:8000/tts/admin/records
+2026-01-12 17:52:20,886 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 17:52:20,889 [INFO] Main - Response status: 404
+2026-01-12 17:52:20,897 [INFO] Main - Response status: 200
+2026-01-12 17:52:22,758 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 17:52:22,774 [INFO] Main - Response status: 200
+2026-01-12 17:52:22,799 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 17:52:22,801 [INFO] Main - Incoming request: GET http://localhost:8000/tts/uploads
+2026-01-12 17:52:22,814 [INFO] Main - Response status: 200
+2026-01-12 17:52:22,815 [INFO] Main - Response status: 200
+2026-01-12 17:52:30,461 [INFO] Main - Incoming request: POST http://localhost:8000/tts/upload-text
+2026-01-12 17:52:30,512 [INFO] Main - Response status: 200
+2026-01-12 17:52:30,518 [INFO] Main - Incoming request: POST http://localhost:8000/tts/select-uploads
+2026-01-12 17:52:30,536 [INFO] Main - Response status: 200
+2026-01-12 17:52:30,546 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/tts/generate-preview
+2026-01-12 17:52:30,547 [INFO] Main - Response status: 200
+2026-01-12 17:52:30,552 [INFO] Main - Incoming request: POST http://localhost:8000/tts/generate-preview
+2026-01-12 17:52:30,565 [INFO] Main - Response status: 200
+2026-01-12 17:52:33,638 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/tts/confirm-and-store
+2026-01-12 17:52:33,640 [INFO] Main - Response status: 200
+2026-01-12 17:52:33,645 [INFO] Main - Incoming request: POST http://localhost:8000/tts/confirm-and-store
+2026-01-12 17:52:33,679 [ERROR] Main - Middleware caught error: (psycopg2.errors.NotNullViolation) null value in column "text_content" of relation "tts_records" violates not-null constraint
+DETAIL:  Failing row contains (16, 0, go.teamchai@gmail.com, null, unknown, unknown, unknown, null, null, null, null, , , null, null, 2026-01-12 12:22:33.662886, null).
+
+[SQL: INSERT INTO tts_records (tts_upload_id, user_email, text_content, language, speaker, gender, pitch, pace, loudness, audio_format, audio_path, audio_url, processing_time, ip_address, created_at, processed_at) VALUES (%(tts_upload_id)s, %(user_email)s, %(text_content)s, %(language)s, %(speaker)s, %(gender)s, %(pitch)s, %(pace)s, %(loudness)s, %(audio_format)s, %(audio_path)s, %(audio_url)s, %(processing_time)s, %(ip_address)s, %(created_at)s, %(processed_at)s) RETURNING tts_records.id]
+[parameters: {'tts_upload_id': 0, 'user_email': 'go.teamchai@gmail.com', 'text_content': None, 'language': 'unknown', 'speaker': 'unknown', 'gender': 'unknown', 'pitch': None, 'pace': None, 'loudness': None, 'audio_format': None, 'audio_path': '', 'audio_url': '', 'processing_time': None, 'ip_address': None, 'created_at': datetime.datetime(2026, 1, 12, 12, 22, 33, 662886), 'processed_at': None}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-01-12 17:52:40,011 [INFO] Main - Incoming request: POST http://localhost:8000/tts/select-uploads
+2026-01-12 17:52:40,029 [INFO] Main - Response status: 200
+2026-01-12 17:52:40,035 [INFO] Main - Incoming request: POST http://localhost:8000/tts/generate-preview
+2026-01-12 17:52:40,044 [INFO] Main - Response status: 200
+2026-01-12 17:55:55,025 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/users/me
+2026-01-12 17:55:55,026 [INFO] Main - Response status: 200
+2026-01-12 17:55:55,029 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 17:55:55,033 [INFO] Main - Response status: 200
+2026-01-12 17:55:56,313 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-12 17:55:56,314 [INFO] Main - Incoming request: GET http://localhost:8000/tts/uploads
+2026-01-12 17:55:56,322 [INFO] Main - Response status: 200
+2026-01-12 17:55:56,322 [INFO] Main - Response status: 200
+2026-01-13 07:55:31,183 [INFO] Main - Incoming request: GET http://localhost:8000/languages
+2026-01-13 07:55:31,200 [INFO] Main - Response status: 200
+2026-01-13 07:55:32,591 [INFO] Main - Incoming request: GET http://localhost:8000/languages
+2026-01-13 07:55:32,593 [INFO] Main - Response status: 200
+2026-01-13 07:56:09,249 [INFO] Main - Incoming request: POST http://localhost:8000/token
+2026-01-13 07:56:09,774 [INFO] Main - Response status: 200
+2026-01-13 07:56:09,780 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/users/me
+2026-01-13 07:56:09,799 [INFO] Main - Response status: 200
+2026-01-13 07:56:09,802 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 07:56:09,819 [INFO] Main - Response status: 200
+2026-01-13 07:56:09,835 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 07:56:09,839 [INFO] Main - Response status: 200
+2026-01-13 07:56:11,693 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 07:56:11,700 [INFO] Main - Response status: 200
+2026-01-13 07:56:11,707 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 07:56:11,714 [INFO] Main - Response status: 200
+2026-01-13 07:56:11,725 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/user/uploaded-audio-files
+2026-01-13 07:56:11,727 [INFO] Main - Response status: 200
+2026-01-13 07:56:11,733 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-13 07:56:11,763 [INFO] Main - Response status: 200
+2026-01-13 07:56:13,143 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 07:56:13,169 [INFO] Main - Response status: 200
+2026-01-13 07:56:13,189 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/tts/uploads
+2026-01-13 07:56:13,193 [INFO] Main - Response status: 200
+2026-01-13 07:56:13,201 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 07:56:13,213 [INFO] Main - Response status: 200
+2026-01-13 07:56:13,218 [INFO] Main - Incoming request: GET http://localhost:8000/tts/uploads
+2026-01-13 07:56:13,231 [INFO] Main - Response status: 200
+2026-01-13 07:56:13,990 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 07:56:13,999 [INFO] Main - Response status: 200
+2026-01-13 07:56:14,006 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 07:56:14,018 [INFO] Main - Response status: 200
+2026-01-13 07:56:14,033 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-13 07:56:14,038 [INFO] Main - Response status: 200
+2026-01-13 07:56:15,287 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 07:56:15,302 [INFO] Main - Response status: 200
+2026-01-13 07:56:15,319 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/admin/bulk-uploads
+2026-01-13 07:56:15,321 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 07:56:15,325 [INFO] Main - Response status: 200
+2026-01-13 07:56:15,336 [INFO] Main - Incoming request: GET http://localhost:8000/admin/bulk-uploads
+2026-01-13 07:56:15,354 [INFO] Main - Response status: 200
+2026-01-13 07:56:15,367 [INFO] Main - Response status: 200
+2026-01-13 07:56:26,347 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/admin/bulk-upload
+2026-01-13 07:56:26,348 [INFO] Main - Response status: 200
+2026-01-13 07:56:26,358 [INFO] Main - Incoming request: POST http://localhost:8000/admin/bulk-upload
+2026-01-13 07:56:26,453 [INFO] Main - Response status: 200
+2026-01-13 07:56:26,466 [INFO] Main - Incoming request: GET http://localhost:8000/admin/bulk-uploads
+2026-01-13 07:56:26,482 [INFO] Main - Response status: 200
+2026-01-13 07:56:28,243 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 07:56:28,251 [INFO] Main - Response status: 200
+2026-01-13 07:56:28,257 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 07:56:28,269 [INFO] Main - Response status: 200
+2026-01-13 07:56:28,282 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-13 07:56:28,288 [INFO] Main - Response status: 200
+2026-01-13 07:56:32,094 [INFO] Main - Incoming request: GET http://localhost:8000/uploads/55f1a796284945cd84abbd67df74ba6b.mp3
+2026-01-13 07:56:32,268 [INFO] Main - Response status: 206
+2026-01-13 07:56:37,840 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/user/extract-audio-transcription
+2026-01-13 07:56:37,842 [INFO] Main - Response status: 200
+2026-01-13 07:56:37,846 [INFO] Main - Incoming request: POST http://localhost:8000/user/extract-audio-transcription
+2026-01-13 07:56:37,892 [INFO] Main - Response status: 200
+2026-01-13 07:56:37,897 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-13 07:56:37,905 [INFO] Main - Response status: 200
+2026-01-13 07:56:46,550 [INFO] Main - Incoming request: GET http://localhost:8000/uploads/55f1a796284945cd84abbd67df74ba6b.mp3
+2026-01-13 07:56:46,559 [INFO] Main - Response status: 304
+2026-01-13 07:57:07,497 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-13 07:57:07,503 [INFO] Main - Response status: 200
+2026-01-13 08:10:42,518 [INFO] Main - Logging initialized successfully
+2026-01-13 08:11:06,477 [INFO] Main - Logging initialized successfully
+2026-01-13 08:11:38,645 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/user/uploaded-audio-files
+2026-01-13 08:11:38,648 [INFO] Main - Response status: 200
+2026-01-13 08:11:38,654 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-13 08:11:38,731 [INFO] Main - Response status: 200
+2026-01-13 08:11:39,748 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/users/me
+2026-01-13 08:11:39,749 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/users/me
+2026-01-13 08:11:39,749 [INFO] Main - Response status: 200
+2026-01-13 08:11:39,750 [INFO] Main - Response status: 200
+2026-01-13 08:11:39,752 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 08:11:39,786 [INFO] Main - Response status: 200
+2026-01-13 08:11:39,799 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 08:11:39,808 [INFO] Main - Response status: 200
+2026-01-13 08:11:40,015 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-13 08:11:40,021 [INFO] Main - Response status: 200
+2026-01-13 08:11:41,439 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 08:11:41,447 [INFO] Main - Response status: 200
+2026-01-13 08:11:41,472 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/admin/bulk-uploads
+2026-01-13 08:11:41,480 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 08:11:41,482 [INFO] Main - Response status: 200
+2026-01-13 08:11:41,489 [INFO] Main - Incoming request: GET http://localhost:8000/admin/bulk-uploads
+2026-01-13 08:11:41,561 [INFO] Main - Response status: 200
+2026-01-13 08:11:41,568 [INFO] Main - Response status: 200
+2026-01-13 08:11:47,577 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/admin/bulk-upload
+2026-01-13 08:11:47,579 [INFO] Main - Response status: 200
+2026-01-13 08:11:47,583 [INFO] Main - Incoming request: POST http://localhost:8000/admin/bulk-upload
+2026-01-13 08:11:47,644 [INFO] Main - Response status: 200
+2026-01-13 08:11:47,657 [INFO] Main - Incoming request: GET http://localhost:8000/admin/bulk-uploads
+2026-01-13 08:11:47,672 [INFO] Main - Response status: 200
+2026-01-13 08:11:53,402 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 08:11:53,413 [INFO] Main - Response status: 200
+2026-01-13 08:11:53,416 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 08:11:53,424 [INFO] Main - Response status: 200
+2026-01-13 08:11:53,433 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-13 08:11:53,440 [INFO] Main - Response status: 200
+2026-01-13 08:11:56,843 [INFO] Main - Incoming request: GET http://localhost:8000/uploads/8577bb844ecd471c9912e2582d072242.mp3
+2026-01-13 08:11:56,993 [INFO] Main - Response status: 206
+2026-01-13 08:11:58,328 [INFO] Main - Incoming request: GET http://localhost:8000/uploads/8577bb844ecd471c9912e2582d072242.mp3
+2026-01-13 08:11:58,333 [INFO] Main - Response status: 304
+2026-01-13 08:12:04,890 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/user/extract-audio-transcription
+2026-01-13 08:12:04,893 [INFO] Main - Response status: 200
+2026-01-13 08:12:04,897 [INFO] Main - Incoming request: POST http://localhost:8000/user/extract-audio-transcription
+2026-01-13 08:12:04,996 [ERROR] Main - Transcription failed: [WinError 2] The system cannot find the file specified
+2026-01-13 08:12:05,108 [INFO] Main - Response status: 500
+2026-01-13 08:12:11,829 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-13 08:12:11,838 [INFO] Main - Response status: 200
+2026-01-13 08:14:17,409 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-13 08:14:17,415 [INFO] Main - Response status: 200
+2026-01-13 08:14:20,009 [INFO] Main - Incoming request: POST http://localhost:8000/user/extract-audio-transcription
+2026-01-13 08:14:20,077 [ERROR] Main - Transcription failed: [WinError 2] The system cannot find the file specified
+2026-01-13 08:14:20,085 [INFO] Main - Response status: 500
+2026-01-13 08:15:17,094 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-13 08:15:17,102 [INFO] Main - Response status: 200
+2026-01-13 08:16:17,417 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-13 08:16:17,421 [INFO] Main - Response status: 200
+2026-01-13 08:17:17,109 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-13 08:17:17,121 [INFO] Main - Response status: 200
+2026-01-13 08:18:17,438 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-13 08:18:17,442 [INFO] Main - Response status: 200
+2026-01-13 08:19:17,138 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-13 08:19:17,149 [INFO] Main - Response status: 200
+2026-01-13 08:20:17,448 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-13 08:20:17,453 [INFO] Main - Response status: 200
+2026-01-13 08:21:03,854 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-13 08:21:03,865 [INFO] Main - Response status: 200
+2026-01-13 08:24:28,403 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/user/uploaded-audio-files
+2026-01-13 08:24:28,404 [INFO] Main - Response status: 200
+2026-01-13 08:24:28,410 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-13 08:24:28,419 [INFO] Main - Response status: 200
+2026-01-13 08:30:59,588 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-13 08:30:59,596 [INFO] Main - Response status: 200
+2026-01-13 08:39:20,363 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/user/uploaded-audio-files
+2026-01-13 08:39:20,381 [INFO] Main - Response status: 200
+2026-01-13 08:39:20,397 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-13 08:39:20,500 [INFO] Main - Response status: 200
+2026-01-13 08:39:21,639 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/users/me
+2026-01-13 08:39:21,641 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/users/me
+2026-01-13 08:39:21,641 [INFO] Main - Response status: 200
+2026-01-13 08:39:21,644 [INFO] Main - Response status: 200
+2026-01-13 08:39:21,649 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 08:39:21,702 [INFO] Main - Response status: 200
+2026-01-13 08:39:21,705 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 08:39:21,712 [INFO] Main - Response status: 200
+2026-01-13 08:39:21,893 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-13 08:39:21,900 [INFO] Main - Response status: 200
+2026-01-13 08:39:25,767 [INFO] Main - Incoming request: GET http://localhost:8000/uploads/8577bb844ecd471c9912e2582d072242.mp3
+2026-01-13 08:39:25,803 [INFO] Main - Response status: 304
+2026-01-13 08:39:30,762 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/user/extract-audio-transcription
+2026-01-13 08:39:30,765 [INFO] Main - Response status: 200
+2026-01-13 08:39:30,770 [INFO] Main - Incoming request: POST http://localhost:8000/user/extract-audio-transcription
+2026-01-13 08:39:30,904 [ERROR] Main - Transcription failed: [WinError 2] The system cannot find the file specified
+2026-01-13 08:39:30,951 [INFO] Main - Response status: 500
+2026-01-13 08:43:59,277 [INFO] Main - Logging initialized successfully
+2026-01-13 08:44:18,774 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-13 08:44:19,206 [INFO] Main - Response status: 200
+2026-01-13 08:44:19,920 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 08:44:20,012 [INFO] Main - Response status: 200
+2026-01-13 08:44:20,015 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 08:44:20,019 [INFO] Main - Response status: 200
+2026-01-13 08:44:20,203 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-13 08:44:20,211 [INFO] Main - Response status: 200
+2026-01-13 08:44:23,227 [INFO] Main - Incoming request: GET http://localhost:8000/uploads/8577bb844ecd471c9912e2582d072242.mp3
+2026-01-13 08:44:23,429 [INFO] Main - Response status: 304
+2026-01-13 08:44:25,528 [INFO] Main - Incoming request: POST http://localhost:8000/user/extract-audio-transcription
+2026-01-13 08:44:25,583 [ERROR] Main - Transcription failed: FFmpeg/FFprobe not found on the system. Please install FFmpeg and add it to your PATH to enable audio processing.
+2026-01-13 08:44:25,599 [INFO] Main - Response status: 500
+2026-01-13 10:14:18,141 [INFO] Main - Logging initialized successfully
+2026-01-13 10:15:59,023 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/user/uploaded-audio-files
+2026-01-13 10:15:59,025 [INFO] Main - Response status: 200
+2026-01-13 10:16:02,186 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/users/me
+2026-01-13 10:16:02,187 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/users/me
+2026-01-13 10:16:02,188 [INFO] Main - Response status: 200
+2026-01-13 10:16:02,190 [INFO] Main - Response status: 200
+2026-01-13 10:16:02,191 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 10:16:02,457 [INFO] Main - Response status: 200
+2026-01-13 10:16:02,460 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 10:16:02,465 [INFO] Main - Response status: 200
+2026-01-13 10:16:02,509 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-13 10:16:02,521 [INFO] Main - Response status: 200
+2026-01-13 10:16:05,032 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 10:16:05,046 [INFO] Main - Response status: 200
+2026-01-13 10:16:05,088 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 10:16:05,090 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/tts/uploads
+2026-01-13 10:16:05,094 [INFO] Main - Response status: 200
+2026-01-13 10:16:05,097 [INFO] Main - Incoming request: GET http://localhost:8000/tts/uploads
+2026-01-13 10:16:05,101 [INFO] Main - Response status: 200
+2026-01-13 10:16:05,191 [INFO] Main - Response status: 200
+2026-01-13 10:16:06,079 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 10:16:06,091 [INFO] Main - Response status: 200
+2026-01-13 10:16:06,100 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 10:16:06,113 [INFO] Main - Response status: 200
+2026-01-13 10:16:06,144 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-13 10:16:06,151 [INFO] Main - Response status: 200
+2026-01-13 10:16:11,163 [INFO] Main - Incoming request: GET http://localhost:8000/uploads/8577bb844ecd471c9912e2582d072242.mp3
+2026-01-13 10:16:11,362 [INFO] Main - Response status: 304
+2026-01-13 10:16:23,558 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-13 10:16:23,570 [INFO] Main - Response status: 200
+2026-01-13 10:16:26,686 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/user/extract-audio-transcription
+2026-01-13 10:16:26,688 [INFO] Main - Response status: 200
+2026-01-13 10:16:26,692 [INFO] Main - Incoming request: POST http://localhost:8000/user/extract-audio-transcription
+2026-01-13 10:16:26,751 [ERROR] Main - Transcription failed: FFmpeg/FFprobe not found on the system. Please install FFmpeg and add it to your PATH to enable audio processing.
+2026-01-13 10:16:26,756 [INFO] Main - Response status: 500
+2026-01-13 10:34:13,667 [INFO] Main - Logging initialized successfully
+2026-01-13 10:34:20,248 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/user/uploaded-audio-files
+2026-01-13 10:34:20,250 [INFO] Main - Response status: 200
+2026-01-13 10:34:20,260 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-13 10:34:20,494 [INFO] Main - Response status: 200
+2026-01-13 10:34:21,520 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/users/me
+2026-01-13 10:34:21,521 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/users/me
+2026-01-13 10:34:21,521 [INFO] Main - Response status: 200
+2026-01-13 10:34:21,522 [INFO] Main - Response status: 200
+2026-01-13 10:34:21,525 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 10:34:21,590 [INFO] Main - Response status: 200
+2026-01-13 10:34:21,592 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 10:34:21,599 [INFO] Main - Response status: 200
+2026-01-13 10:34:21,725 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-13 10:34:21,730 [INFO] Main - Response status: 200
+2026-01-13 10:34:25,183 [INFO] Main - Incoming request: GET http://localhost:8000/uploads/8577bb844ecd471c9912e2582d072242.mp3
+2026-01-13 10:34:25,418 [INFO] Main - Response status: 304
+2026-01-13 10:34:31,893 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/user/extract-audio-transcription
+2026-01-13 10:34:31,895 [INFO] Main - Response status: 200
+2026-01-13 10:34:31,900 [INFO] Main - Incoming request: POST http://localhost:8000/user/extract-audio-transcription
+2026-01-13 10:34:31,960 [ERROR] Main - Transcription failed: FFmpeg/FFprobe not found on the system. Please install FFmpeg and add it to your PATH to enable audio processing.
+2026-01-13 10:34:31,970 [INFO] Main - Response status: 500
+2026-01-13 10:35:13,025 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-13 10:35:13,034 [INFO] Main - Response status: 200
+2026-01-13 10:35:14,547 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 10:35:14,556 [INFO] Main - Response status: 200
+2026-01-13 10:35:14,580 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/admin/bulk-uploads
+2026-01-13 10:35:14,583 [INFO] Main - Response status: 200
+2026-01-13 10:35:14,588 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 10:35:14,602 [INFO] Main - Response status: 200
+2026-01-13 10:35:14,614 [INFO] Main - Incoming request: GET http://localhost:8000/admin/bulk-uploads
+2026-01-13 10:35:14,651 [INFO] Main - Response status: 200
+2026-01-13 10:35:21,044 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/admin/bulk-upload
+2026-01-13 10:35:21,046 [INFO] Main - Response status: 200
+2026-01-13 10:35:21,058 [INFO] Main - Incoming request: POST http://localhost:8000/admin/bulk-upload
+2026-01-13 10:35:21,148 [INFO] Main - Response status: 200
+2026-01-13 10:35:21,156 [INFO] Main - Incoming request: GET http://localhost:8000/admin/bulk-uploads
+2026-01-13 10:35:21,166 [INFO] Main - Response status: 200
+2026-01-13 10:35:24,282 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 10:35:24,296 [INFO] Main - Response status: 200
+2026-01-13 10:35:24,302 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 10:35:24,313 [INFO] Main - Response status: 200
+2026-01-13 10:35:24,322 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-13 10:35:24,333 [INFO] Main - Response status: 200
+2026-01-13 10:35:27,580 [INFO] Main - Incoming request: GET http://localhost:8000/uploads/e38bb6654504487d9430b6e32a5fe25f.mp3
+2026-01-13 10:35:27,585 [INFO] Main - Response status: 206
+2026-01-13 10:35:30,086 [INFO] Main - Incoming request: GET http://localhost:8000/uploads/e38bb6654504487d9430b6e32a5fe25f.mp3
+2026-01-13 10:35:30,088 [INFO] Main - Response status: 304
+2026-01-13 10:35:32,964 [INFO] Main - Incoming request: POST http://localhost:8000/user/extract-audio-transcription
+2026-01-13 10:35:32,993 [ERROR] Main - Transcription failed: FFmpeg/FFprobe not found on the system. Please install FFmpeg and add it to your PATH to enable audio processing.
+2026-01-13 10:35:33,004 [INFO] Main - Response status: 500
+2026-01-13 10:37:09,964 [INFO] Main - Logging initialized successfully
+2026-01-13 10:38:04,690 [INFO] Main - Logging initialized successfully
+2026-01-13 10:38:07,820 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-13 10:38:07,950 [INFO] Main - Response status: 200
+2026-01-13 10:38:09,287 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 10:38:09,345 [INFO] Main - Response status: 200
+2026-01-13 10:38:09,352 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 10:38:09,361 [INFO] Main - Response status: 200
+2026-01-13 10:38:09,466 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-13 10:38:09,471 [INFO] Main - Response status: 200
+2026-01-13 10:38:14,637 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 10:38:14,646 [INFO] Main - Response status: 200
+2026-01-13 10:38:14,686 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 10:38:14,695 [INFO] Main - Response status: 200
+2026-01-13 10:38:14,697 [INFO] Main - Incoming request: GET http://localhost:8000/admin/bulk-uploads
+2026-01-13 10:38:14,720 [INFO] Main - Response status: 200
+2026-01-13 10:38:20,681 [INFO] Main - Incoming request: POST http://localhost:8000/admin/bulk-upload
+2026-01-13 10:38:20,765 [INFO] Main - Response status: 200
+2026-01-13 10:38:20,775 [INFO] Main - Incoming request: GET http://localhost:8000/admin/bulk-uploads
+2026-01-13 10:38:20,790 [INFO] Main - Response status: 200
+2026-01-13 10:38:23,734 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 10:38:23,748 [INFO] Main - Response status: 200
+2026-01-13 10:38:23,760 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 10:38:23,770 [INFO] Main - Response status: 200
+2026-01-13 10:38:23,783 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-13 10:38:23,791 [INFO] Main - Response status: 200
+2026-01-13 10:38:26,872 [INFO] Main - Incoming request: GET http://localhost:8000/uploads/b605026027cc4867b75e0240c998c593.mp3
+2026-01-13 10:38:27,019 [INFO] Main - Response status: 206
+2026-01-13 10:38:30,238 [INFO] Main - Incoming request: POST http://localhost:8000/user/extract-audio-transcription
+2026-01-13 10:38:44,966 [ERROR] Main - Transcription failed: Could not load libtorchcodec. Likely causes:
+          1. FFmpeg is not properly installed in your environment. We support
+             versions 4, 5, 6, and 7 on all platforms, and 8 on Mac and Linux.
+          2. The PyTorch version (2.9.1+cpu) is not compatible with
+             this version of TorchCodec. Refer to the version compatibility
+             table:
+             https://github.com/pytorch/torchcodec?tab=readme-ov-file#installing-torchcodec.
+          3. Another runtime dependency; see exceptions below.
+        The following exceptions were raised as we tried to load libtorchcodec:
+        
+[start of libtorchcodec loading traceback]
+FFmpeg version 8: Could not load this library: C:\Users\sures\AppData\Local\Programs\Python\Python313\Lib\site-packages\torchcodec\libtorchcodec_core8.dll
+FFmpeg version 7: Could not load this library: C:\Users\sures\AppData\Local\Programs\Python\Python313\Lib\site-packages\torchcodec\libtorchcodec_core7.dll
+FFmpeg version 6: Could not load this library: C:\Users\sures\AppData\Local\Programs\Python\Python313\Lib\site-packages\torchcodec\libtorchcodec_core6.dll
+FFmpeg version 5: Could not load this library: C:\Users\sures\AppData\Local\Programs\Python\Python313\Lib\site-packages\torchcodec\libtorchcodec_core5.dll
+FFmpeg version 4: Could not load this library: C:\Users\sures\AppData\Local\Programs\Python\Python313\Lib\site-packages\torchcodec\libtorchcodec_core4.dll
+[end of libtorchcodec loading traceback].
+2026-01-13 10:38:45,234 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-13 10:38:45,239 [INFO] Main - Response status: 500
+2026-01-13 10:38:45,315 [INFO] Main - Response status: 200
+2026-01-13 10:38:46,051 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-13 10:38:46,064 [INFO] Main - Response status: 200
+2026-01-13 10:40:29,609 [INFO] Main - Logging initialized successfully
+2026-01-13 10:41:48,286 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-13 10:41:48,410 [INFO] Main - Response status: 200
+2026-01-13 10:41:51,049 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 10:41:51,082 [INFO] Main - Response status: 200
+2026-01-13 10:41:51,124 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 10:41:51,125 [INFO] Main - Incoming request: GET http://localhost:8000/admin/bulk-uploads
+2026-01-13 10:41:51,195 [INFO] Main - Response status: 200
+2026-01-13 10:41:51,199 [INFO] Main - Response status: 200
+2026-01-13 10:42:01,629 [INFO] Main - Incoming request: POST http://localhost:8000/admin/bulk-upload
+2026-01-13 10:42:01,700 [INFO] Main - Response status: 200
+2026-01-13 10:42:01,716 [INFO] Main - Incoming request: GET http://localhost:8000/admin/bulk-uploads
+2026-01-13 10:42:01,728 [INFO] Main - Response status: 200
+2026-01-13 10:42:11,170 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 10:42:11,178 [INFO] Main - Response status: 200
+2026-01-13 10:42:11,181 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 10:42:11,185 [INFO] Main - Response status: 200
+2026-01-13 10:42:11,196 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-13 10:42:11,203 [INFO] Main - Response status: 200
+2026-01-13 10:42:18,426 [INFO] Main - Incoming request: GET http://localhost:8000/uploads/30cb692f83b74ffab6b85b5d310156b9.mp3
+2026-01-13 10:42:18,595 [INFO] Main - Response status: 206
+2026-01-13 10:42:23,369 [INFO] Main - Incoming request: POST http://localhost:8000/user/extract-audio-transcription
+2026-01-13 10:43:05,392 [INFO] Main - Response status: 200
+2026-01-13 10:43:05,487 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-13 10:43:05,530 [INFO] Main - Response status: 200
+2026-01-13 10:43:11,200 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-13 10:43:11,211 [INFO] Main - Response status: 200
+2026-01-13 10:43:25,087 [INFO] Main - Incoming request: GET http://localhost:8000/uploads/30cb692f83b74ffab6b85b5d310156b9.mp3
+2026-01-13 10:43:25,115 [INFO] Main - Response status: 304
+2026-01-13 10:43:48,372 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/user/confirm-audio-transcription
+2026-01-13 10:43:48,392 [INFO] Main - Response status: 200
+2026-01-13 10:43:48,399 [INFO] Main - Incoming request: POST http://localhost:8000/user/confirm-audio-transcription
+2026-01-13 10:43:48,518 [INFO] Main - Response status: 200
+2026-01-13 10:43:48,524 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-13 10:43:48,533 [INFO] Main - Response status: 200
+2026-01-13 10:43:53,073 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/admin/saved-records
+2026-01-13 10:43:53,076 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/admin/saved-records
+2026-01-13 10:43:53,076 [INFO] Main - Response status: 200
+2026-01-13 10:43:53,079 [INFO] Main - Response status: 200
+2026-01-13 10:43:53,084 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 10:43:53,089 [INFO] Main - Incoming request: GET http://localhost:8000/admin/saved-records
+2026-01-13 10:43:54,098 [INFO] Main - Response status: 200
+2026-01-13 10:43:54,101 [INFO] Main - Response status: 200
+2026-01-13 10:43:54,106 [INFO] Main - Incoming request: GET http://localhost:8000/admin/saved-records
+2026-01-13 10:43:54,109 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 10:43:54,124 [INFO] Main - Response status: 200
+2026-01-13 10:43:54,126 [INFO] Main - Response status: 200
+2026-01-13 10:44:23,137 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/admin/saved-records/24/download
+2026-01-13 10:44:23,138 [INFO] Main - Response status: 200
+2026-01-13 10:44:23,141 [INFO] Main - Incoming request: GET http://localhost:8000/admin/saved-records/24/download
+2026-01-13 10:44:23,143 [INFO] Main - Response status: 404
+2026-01-13 10:44:28,036 [INFO] Main - Incoming request: GET http://localhost:8000/admin/saved-records/24/download
+2026-01-13 10:44:28,037 [INFO] Main - Response status: 404
+2026-01-13 10:44:30,452 [INFO] Main - Incoming request: GET http://localhost:8000/admin/saved-records/24/download
+2026-01-13 10:44:30,454 [INFO] Main - Response status: 404
+2026-01-13 10:44:32,601 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/admin/saved-records/download-all
+2026-01-13 10:44:32,603 [INFO] Main - Response status: 200
+2026-01-13 10:44:32,607 [INFO] Main - Incoming request: GET http://localhost:8000/admin/saved-records/download-all
+2026-01-13 10:44:32,608 [INFO] Main - Response status: 404
+2026-01-13 11:07:19,796 [INFO] Main - Logging initialized successfully
+2026-01-13 11:07:28,822 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/users/me
+2026-01-13 11:07:28,823 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/admin/saved-records
+2026-01-13 11:07:28,824 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/admin/saved-records
+2026-01-13 11:07:28,825 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/users/me
+2026-01-13 11:07:28,826 [INFO] Main - Response status: 200
+2026-01-13 11:07:28,829 [INFO] Main - Response status: 200
+2026-01-13 11:07:28,831 [INFO] Main - Response status: 200
+2026-01-13 11:07:28,833 [INFO] Main - Response status: 200
+2026-01-13 11:07:28,835 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 11:07:28,838 [INFO] Main - Incoming request: GET http://localhost:8000/admin/saved-records
+2026-01-13 11:07:29,002 [INFO] Main - Response status: 200
+2026-01-13 11:07:29,003 [INFO] Main - Response status: 200
+2026-01-13 11:07:29,005 [INFO] Main - Incoming request: GET http://localhost:8000/admin/saved-records
+2026-01-13 11:07:29,006 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 11:07:29,019 [INFO] Main - Response status: 200
+2026-01-13 11:07:29,020 [INFO] Main - Response status: 200
+2026-01-13 11:08:58,500 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 11:08:58,501 [INFO] Main - Incoming request: GET http://localhost:8000/admin/saved-records
+2026-01-13 11:08:58,513 [INFO] Main - Response status: 200
+2026-01-13 11:08:58,517 [INFO] Main - Response status: 200
+2026-01-13 11:08:58,519 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 11:08:58,521 [INFO] Main - Incoming request: GET http://localhost:8000/admin/saved-records
+2026-01-13 11:08:58,547 [INFO] Main - Response status: 200
+2026-01-13 11:08:58,555 [INFO] Main - Response status: 200
+2026-01-13 11:08:59,853 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/admin/saved-records/download-all
+2026-01-13 11:08:59,854 [INFO] Main - Response status: 200
+2026-01-13 11:08:59,860 [INFO] Main - Incoming request: GET http://localhost:8000/admin/saved-records/download-all
+2026-01-13 11:08:59,878 [INFO] Main - Response status: 200
+2026-01-13 11:12:09,296 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/admin/saved-records/24/download
+2026-01-13 11:12:09,297 [INFO] Main - Response status: 200
+2026-01-13 11:12:09,303 [INFO] Main - Incoming request: GET http://localhost:8000/admin/saved-records/24/download
+2026-01-13 11:12:09,333 [INFO] Main - Response status: 200
+2026-01-13 11:13:03,509 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 11:13:03,520 [INFO] Main - Response status: 200
+2026-01-13 11:13:03,543 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/tts/uploads
+2026-01-13 11:13:03,544 [INFO] Main - Response status: 200
+2026-01-13 11:13:03,557 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 11:13:03,564 [INFO] Main - Response status: 200
+2026-01-13 11:13:03,600 [INFO] Main - Incoming request: GET http://localhost:8000/tts/uploads
+2026-01-13 11:13:03,619 [INFO] Main - Response status: 200
+2026-01-13 11:13:09,422 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/tts/upload-text
+2026-01-13 11:13:09,423 [INFO] Main - Response status: 200
+2026-01-13 11:13:09,427 [INFO] Main - Incoming request: POST http://localhost:8000/tts/upload-text
+2026-01-13 11:13:09,501 [INFO] Main - Response status: 200
+2026-01-13 11:13:09,510 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/tts/select-uploads
+2026-01-13 11:13:09,511 [INFO] Main - Response status: 200
+2026-01-13 11:13:09,515 [INFO] Main - Incoming request: POST http://localhost:8000/tts/select-uploads
+2026-01-13 11:13:09,546 [INFO] Main - Response status: 200
+2026-01-13 11:13:09,549 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/tts/generate-preview
+2026-01-13 11:13:09,550 [INFO] Main - Response status: 200
+2026-01-13 11:13:09,554 [INFO] Main - Incoming request: POST http://localhost:8000/tts/generate-preview
+2026-01-13 11:13:09,564 [INFO] Main - Response status: 200
+2026-01-13 11:13:19,322 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 11:13:19,327 [INFO] Main - Incoming request: GET http://localhost:8000/languages
+2026-01-13 11:13:19,334 [INFO] Main - Response status: 200
+2026-01-13 11:13:19,339 [INFO] Main - Response status: 200
+2026-01-13 11:13:19,353 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 11:13:19,364 [INFO] Main - Response status: 200
+2026-01-13 11:14:10,782 [INFO] Main - Incoming request: POST http://localhost:8000/tts/upload-text
+2026-01-13 11:14:10,794 [INFO] Main - Response status: 200
+2026-01-13 11:14:10,801 [INFO] Main - Incoming request: GET http://localhost:8000/languages
+2026-01-13 11:14:10,802 [INFO] Main - Response status: 200
+2026-01-13 11:14:22,954 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 11:14:22,961 [INFO] Main - Response status: 200
+2026-01-13 11:14:22,978 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 11:14:22,996 [INFO] Main - Response status: 200
+2026-01-13 11:14:23,001 [INFO] Main - Incoming request: GET http://localhost:8000/tts/uploads
+2026-01-13 11:14:23,029 [INFO] Main - Response status: 200
+2026-01-13 11:14:30,360 [INFO] Main - Incoming request: POST http://localhost:8000/tts/select-uploads
+2026-01-13 11:14:30,382 [INFO] Main - Response status: 200
+2026-01-13 11:14:30,390 [INFO] Main - Incoming request: POST http://localhost:8000/tts/generate-preview
+2026-01-13 11:14:30,409 [INFO] Main - Response status: 200
+2026-01-13 11:15:48,337 [INFO] Main - Incoming request: POST http://localhost:8000/tts/select-uploads
+2026-01-13 11:15:48,349 [INFO] Main - Response status: 200
+2026-01-13 11:15:48,353 [INFO] Main - Incoming request: POST http://localhost:8000/tts/generate-preview
+2026-01-13 11:15:48,360 [INFO] Main - Response status: 200
+2026-01-13 11:16:39,754 [INFO] Main - Incoming request: POST http://localhost:8000/tts/select-uploads
+2026-01-13 11:16:39,765 [INFO] Main - Response status: 200
+2026-01-13 11:16:39,777 [INFO] Main - Incoming request: POST http://localhost:8000/tts/generate-preview
+2026-01-13 11:16:39,793 [INFO] Main - Response status: 200
+2026-01-13 11:16:55,799 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 11:16:55,806 [INFO] Main - Response status: 200
+2026-01-13 11:16:55,809 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 11:16:55,818 [INFO] Main - Response status: 200
+2026-01-13 11:16:55,827 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/user/uploaded-audio-files
+2026-01-13 11:16:55,829 [INFO] Main - Response status: 200
+2026-01-13 11:16:55,855 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-13 11:16:55,892 [INFO] Main - Response status: 200
+2026-01-13 11:16:57,704 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 11:16:57,712 [INFO] Main - Response status: 200
+2026-01-13 11:16:57,729 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 11:16:57,731 [INFO] Main - Incoming request: GET http://localhost:8000/tts/uploads
+2026-01-13 11:16:57,748 [INFO] Main - Response status: 200
+2026-01-13 11:16:57,754 [INFO] Main - Response status: 200
+2026-01-13 11:17:12,855 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/tts/admin/records
+2026-01-13 11:17:12,857 [INFO] Main - Response status: 200
+2026-01-13 11:17:12,860 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 11:17:12,876 [INFO] Main - Response status: 200
+2026-01-13 11:17:12,882 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/tts/admin/records
+2026-01-13 11:17:12,884 [INFO] Main - Response status: 200
+2026-01-13 11:17:12,893 [INFO] Main - Incoming request: GET http://localhost:8000/tts/admin/records
+2026-01-13 11:17:12,899 [INFO] Main - Response status: 404
+2026-01-13 11:17:12,906 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 11:17:12,912 [INFO] Main - Response status: 200
+2026-01-13 11:17:12,915 [INFO] Main - Incoming request: GET http://localhost:8000/tts/admin/records
+2026-01-13 11:17:12,916 [INFO] Main - Response status: 404
+2026-01-13 11:17:15,684 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 11:17:15,694 [INFO] Main - Response status: 200
+2026-01-13 11:17:15,712 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 11:17:15,714 [INFO] Main - Incoming request: GET http://localhost:8000/tts/uploads
+2026-01-13 11:17:15,732 [INFO] Main - Response status: 200
+2026-01-13 11:17:15,737 [INFO] Main - Response status: 200
+2026-01-13 11:20:53,583 [INFO] Main - Logging initialized successfully
+2026-01-13 11:20:53,627 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/users/me
+2026-01-13 11:20:53,628 [INFO] Main - Response status: 200
+2026-01-13 11:20:53,633 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 11:20:53,701 [INFO] Main - Response status: 200
+2026-01-13 11:20:53,780 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 11:20:53,781 [INFO] Main - Incoming request: GET http://localhost:8000/tts/uploads
+2026-01-13 11:20:53,848 [INFO] Main - Response status: 200
+2026-01-13 11:20:53,852 [INFO] Main - Response status: 200
+2026-01-13 11:21:07,032 [INFO] Main - Incoming request: POST http://localhost:8000/tts/select-uploads
+2026-01-13 11:21:07,064 [INFO] Main - Response status: 200
+2026-01-13 11:21:07,073 [INFO] Main - Incoming request: POST http://localhost:8000/tts/generate-preview
+2026-01-13 11:21:07,113 [INFO] Main - Response status: 500
+2026-01-13 11:22:43,700 [INFO] Main - Logging initialized successfully
+2026-01-13 11:24:52,207 [INFO] Main - Logging initialized successfully
+2026-01-13 11:26:40,187 [INFO] Main - Logging initialized successfully
+2026-01-13 11:27:12,392 [INFO] Main - Logging initialized successfully
+2026-01-13 11:27:43,779 [INFO] Main - Logging initialized successfully
+2026-01-13 11:33:15,616 [INFO] Main - Logging initialized successfully
+2026-01-13 11:36:52,175 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/users/me
+2026-01-13 11:36:52,177 [INFO] Main - Response status: 200
+2026-01-13 11:36:52,181 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 11:36:52,770 [INFO] Main - Response status: 200
+2026-01-13 11:36:52,794 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/tts/uploads
+2026-01-13 11:36:52,795 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 11:36:52,796 [INFO] Main - Response status: 200
+2026-01-13 11:36:52,802 [INFO] Main - Incoming request: GET http://localhost:8000/tts/uploads
+2026-01-13 11:36:52,970 [INFO] Main - Response status: 200
+2026-01-13 11:36:52,988 [INFO] Main - Response status: 200
+2026-01-13 11:37:13,354 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/tts/select-uploads
+2026-01-13 11:37:13,357 [INFO] Main - Response status: 200
+2026-01-13 11:37:13,369 [INFO] Main - Incoming request: POST http://localhost:8000/tts/select-uploads
+2026-01-13 11:37:13,416 [INFO] Main - Response status: 200
+2026-01-13 11:37:13,426 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/tts/generate-preview
+2026-01-13 11:37:13,429 [INFO] Main - Response status: 200
+2026-01-13 11:37:13,434 [INFO] Main - Incoming request: POST http://localhost:8000/tts/generate-preview
+2026-01-13 11:37:13,462 [INFO] Main - Response status: 500
+2026-01-13 11:38:06,262 [INFO] Main - Logging initialized successfully
+2026-01-13 11:38:09,970 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 11:38:10,098 [INFO] Main - Response status: 200
+2026-01-13 11:38:10,130 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 11:38:10,143 [INFO] Main - Response status: 200
+2026-01-13 11:38:10,152 [INFO] Main - Incoming request: GET http://localhost:8000/tts/uploads
+2026-01-13 11:38:10,178 [INFO] Main - Response status: 200
+2026-01-13 11:38:15,808 [INFO] Main - Incoming request: POST http://localhost:8000/tts/select-uploads
+2026-01-13 11:38:15,826 [INFO] Main - Response status: 200
+2026-01-13 11:38:15,830 [INFO] Main - Incoming request: POST http://localhost:8000/tts/generate-preview
+2026-01-13 11:38:15,852 [INFO] Main - Response status: 500
+2026-01-13 11:41:43,020 [INFO] Main - Logging initialized successfully
+2026-01-13 11:42:14,204 [INFO] Main - Logging initialized successfully
+2026-01-13 11:42:41,609 [INFO] Main - Logging initialized successfully
+2026-01-13 11:43:11,587 [INFO] Main - Logging initialized successfully
+2026-01-13 11:43:20,552 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 11:43:20,664 [INFO] Main - Response status: 200
+2026-01-13 11:43:20,710 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 11:43:20,718 [INFO] Main - Response status: 200
+2026-01-13 11:43:20,721 [INFO] Main - Incoming request: GET http://localhost:8000/tts/uploads
+2026-01-13 11:43:20,747 [INFO] Main - Response status: 200
+2026-01-13 11:43:34,046 [INFO] Main - Incoming request: POST http://localhost:8000/tts/select-uploads
+2026-01-13 11:43:34,067 [INFO] Main - Response status: 200
+2026-01-13 11:43:34,077 [INFO] Main - Incoming request: POST http://localhost:8000/tts/generate-preview
+2026-01-13 11:43:34,114 [INFO] Main - Response status: 500
+2026-01-13 11:50:27,711 [INFO] Main - Logging initialized successfully
+2026-01-13 11:51:02,089 [INFO] Main - Logging initialized successfully
+2026-01-13 11:57:42,038 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/tts/select-uploads
+2026-01-13 11:57:42,040 [INFO] Main - Response status: 200
+2026-01-13 11:57:42,047 [INFO] Main - Incoming request: POST http://localhost:8000/tts/select-uploads
+2026-01-13 11:57:42,131 [INFO] Main - Response status: 200
+2026-01-13 11:57:42,135 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/tts/generate-preview
+2026-01-13 11:57:42,135 [INFO] Main - Response status: 200
+2026-01-13 11:57:42,137 [INFO] Main - Incoming request: POST http://localhost:8000/tts/generate-preview
+2026-01-13 11:57:42,163 [INFO] Main - Response status: 500
+2026-01-13 11:57:45,236 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/users/me
+2026-01-13 11:57:45,237 [INFO] Main - Response status: 200
+2026-01-13 11:57:45,240 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 11:57:45,273 [INFO] Main - Response status: 200
+2026-01-13 11:57:45,306 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/tts/uploads
+2026-01-13 11:57:45,307 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 11:57:45,308 [INFO] Main - Response status: 200
+2026-01-13 11:57:45,313 [INFO] Main - Incoming request: GET http://localhost:8000/tts/uploads
+2026-01-13 11:57:45,386 [INFO] Main - Response status: 200
+2026-01-13 11:57:45,393 [INFO] Main - Response status: 200
+2026-01-13 11:58:22,699 [INFO] Main - Logging initialized successfully
+2026-01-13 11:59:45,793 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 11:59:46,086 [INFO] Main - Response status: 200
+2026-01-13 11:59:46,117 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 11:59:46,121 [INFO] Main - Incoming request: GET http://localhost:8000/tts/uploads
+2026-01-13 11:59:46,219 [INFO] Main - Response status: 200
+2026-01-13 11:59:46,226 [INFO] Main - Response status: 200
+2026-01-13 12:00:01,394 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/tts/select-uploads
+2026-01-13 12:00:01,398 [INFO] Main - Response status: 200
+2026-01-13 12:00:01,401 [INFO] Main - Incoming request: POST http://localhost:8000/tts/select-uploads
+2026-01-13 12:00:01,433 [INFO] Main - Response status: 200
+2026-01-13 12:00:01,441 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/tts/generate-preview
+2026-01-13 12:00:01,442 [INFO] Main - Response status: 200
+2026-01-13 12:00:01,445 [INFO] Main - Incoming request: POST http://localhost:8000/tts/generate-preview
+2026-01-13 12:00:03,888 [INFO] Main - Response status: 200
+2026-01-13 12:00:05,504 [INFO] Main - Incoming request: GET http://localhost:8000/uploads/tts_previews/ce89b9f7/final.wav
+2026-01-13 12:00:05,676 [INFO] Main - Response status: 206
+2026-01-13 12:00:19,233 [INFO] Main - Incoming request: POST http://localhost:8000/tts/select-uploads
+2026-01-13 12:00:19,246 [INFO] Main - Response status: 200
+2026-01-13 12:00:19,257 [INFO] Main - Incoming request: POST http://localhost:8000/tts/generate-preview
+2026-01-13 12:00:21,456 [INFO] Main - Response status: 200
+2026-01-13 12:00:21,483 [INFO] Main - Incoming request: GET http://localhost:8000/uploads/tts_previews/fd3f3f62/final.wav
+2026-01-13 12:00:21,486 [INFO] Main - Response status: 206
+2026-01-13 12:00:31,844 [INFO] Main - Incoming request: POST http://localhost:8000/tts/select-uploads
+2026-01-13 12:00:31,857 [INFO] Main - Response status: 200
+2026-01-13 12:00:31,862 [INFO] Main - Incoming request: POST http://localhost:8000/tts/generate-preview
+2026-01-13 12:00:34,378 [INFO] Main - Response status: 200
+2026-01-13 12:00:34,742 [INFO] Main - Incoming request: GET http://localhost:8000/uploads/tts_previews/6ea594f5/final.wav
+2026-01-13 12:00:34,749 [INFO] Main - Response status: 206
+2026-01-13 12:00:35,971 [INFO] Main - Incoming request: GET http://localhost:8000/uploads/tts_previews/6ea594f5/final.wav
+2026-01-13 12:00:35,976 [INFO] Main - Response status: 304
+2026-01-13 12:00:38,936 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 12:00:38,938 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/tts/admin/records
+2026-01-13 12:00:38,947 [INFO] Main - Response status: 200
+2026-01-13 12:00:38,949 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/tts/admin/records
+2026-01-13 12:00:38,950 [INFO] Main - Response status: 200
+2026-01-13 12:00:38,953 [INFO] Main - Response status: 200
+2026-01-13 12:00:38,957 [INFO] Main - Incoming request: GET http://localhost:8000/tts/admin/records
+2026-01-13 12:00:38,958 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 12:00:38,959 [INFO] Main - Response status: 404
+2026-01-13 12:00:38,964 [INFO] Main - Incoming request: GET http://localhost:8000/tts/admin/records
+2026-01-13 12:00:38,966 [INFO] Main - Response status: 404
+2026-01-13 12:00:38,968 [INFO] Main - Response status: 200
+2026-01-13 12:24:14,414 [INFO] Main - Logging initialized successfully
+2026-01-13 12:24:47,014 [INFO] Main - Logging initialized successfully
+2026-01-13 12:25:18,431 [INFO] Main - Logging initialized successfully
+2026-01-13 12:25:43,966 [INFO] Main - Logging initialized successfully
+2026-01-13 12:26:07,460 [INFO] Main - Logging initialized successfully
+2026-01-13 12:26:08,258 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/users/me
+2026-01-13 12:26:08,259 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/users/me
+2026-01-13 12:26:08,259 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/tts/admin/records
+2026-01-13 12:26:08,260 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/tts/admin/records
+2026-01-13 12:26:08,261 [INFO] Main - Response status: 200
+2026-01-13 12:26:08,262 [INFO] Main - Response status: 200
+2026-01-13 12:26:08,263 [INFO] Main - Response status: 200
+2026-01-13 12:26:08,263 [INFO] Main - Response status: 200
+2026-01-13 12:26:08,265 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 12:26:08,267 [INFO] Main - Incoming request: GET http://localhost:8000/tts/admin/records
+2026-01-13 12:26:08,431 [INFO] Main - Response status: 200
+2026-01-13 12:26:08,432 [ERROR] Main - Middleware caught error: (psycopg2.errors.UndefinedColumn) column tts_records.from_manual_input does not exist
+LINE 1: ...tts_records.ip_address AS tts_records_ip_address, tts_record...
+                                                             ^
+
+[SQL: SELECT tts_records.id AS tts_records_id, tts_records.tts_upload_id AS tts_records_tts_upload_id, tts_records.user_email AS tts_records_user_email, tts_records.text_content AS tts_records_text_content, tts_records.language AS tts_records_language, tts_records.speaker AS tts_records_speaker, tts_records.gender AS tts_records_gender, tts_records.pitch AS tts_records_pitch, tts_records.pace AS tts_records_pace, tts_records.loudness AS tts_records_loudness, tts_records.audio_format AS tts_records_audio_format, tts_records.audio_path AS tts_records_audio_path, tts_records.audio_url AS tts_records_audio_url, tts_records.processing_time AS tts_records_processing_time, tts_records.ip_address AS tts_records_ip_address, tts_records.from_manual_input AS tts_records_from_manual_input, tts_records.created_at AS tts_records_created_at, tts_records.processed_at AS tts_records_processed_at 
+FROM tts_records ORDER BY tts_records.created_at DESC]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2026-01-13 12:26:09,219 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 12:26:09,221 [INFO] Main - Incoming request: GET http://localhost:8000/tts/admin/records
+2026-01-13 12:26:09,230 [INFO] Main - Response status: 200
+2026-01-13 12:26:09,232 [ERROR] Main - Middleware caught error: (psycopg2.errors.UndefinedColumn) column tts_records.from_manual_input does not exist
+LINE 1: ...tts_records.ip_address AS tts_records_ip_address, tts_record...
+                                                             ^
+
+[SQL: SELECT tts_records.id AS tts_records_id, tts_records.tts_upload_id AS tts_records_tts_upload_id, tts_records.user_email AS tts_records_user_email, tts_records.text_content AS tts_records_text_content, tts_records.language AS tts_records_language, tts_records.speaker AS tts_records_speaker, tts_records.gender AS tts_records_gender, tts_records.pitch AS tts_records_pitch, tts_records.pace AS tts_records_pace, tts_records.loudness AS tts_records_loudness, tts_records.audio_format AS tts_records_audio_format, tts_records.audio_path AS tts_records_audio_path, tts_records.audio_url AS tts_records_audio_url, tts_records.processing_time AS tts_records_processing_time, tts_records.ip_address AS tts_records_ip_address, tts_records.from_manual_input AS tts_records_from_manual_input, tts_records.created_at AS tts_records_created_at, tts_records.processed_at AS tts_records_processed_at 
+FROM tts_records ORDER BY tts_records.created_at DESC]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2026-01-13 12:26:13,478 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 12:26:13,484 [INFO] Main - Response status: 200
+2026-01-13 12:26:13,503 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/tts/uploads
+2026-01-13 12:26:13,504 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 12:26:13,505 [INFO] Main - Response status: 200
+2026-01-13 12:26:13,509 [INFO] Main - Incoming request: GET http://localhost:8000/tts/uploads
+2026-01-13 12:26:13,514 [INFO] Main - Response status: 200
+2026-01-13 12:26:13,526 [INFO] Main - Response status: 200
+2026-01-13 12:26:20,104 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/tts/select-uploads
+2026-01-13 12:26:20,106 [INFO] Main - Response status: 200
+2026-01-13 12:26:20,112 [INFO] Main - Incoming request: POST http://localhost:8000/tts/select-uploads
+2026-01-13 12:26:20,137 [INFO] Main - Response status: 200
+2026-01-13 12:26:20,145 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/tts/generate-preview
+2026-01-13 12:26:20,147 [INFO] Main - Response status: 200
+2026-01-13 12:26:20,152 [INFO] Main - Incoming request: POST http://localhost:8000/tts/generate-preview
+2026-01-13 12:26:22,316 [INFO] Main - Response status: 200
+2026-01-13 12:26:22,677 [INFO] Main - Incoming request: GET http://localhost:8000/uploads/tts_previews/a99e2317/final.wav
+2026-01-13 12:26:22,987 [INFO] Main - Response status: 206
+2026-01-13 12:26:23,767 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/tts/confirm-and-store
+2026-01-13 12:26:23,768 [INFO] Main - Response status: 200
+2026-01-13 12:26:23,773 [INFO] Main - Incoming request: POST http://localhost:8000/tts/confirm-and-store
+2026-01-13 12:26:23,794 [ERROR] Main - Middleware caught error: (psycopg2.errors.UndefinedColumn) column "from_manual_input" of relation "tts_records" does not exist
+LINE 1: ...dio_path, audio_url, processing_time, ip_address, from_manua...
+                                                             ^
+
+[SQL: INSERT INTO tts_records (tts_upload_id, user_email, text_content, language, speaker, gender, pitch, pace, loudness, audio_format, audio_path, audio_url, processing_time, ip_address, from_manual_input, created_at, processed_at) VALUES (%(tts_upload_id)s, %(user_email)s, %(text_content)s, %(language)s, %(speaker)s, %(gender)s, %(pitch)s, %(pace)s, %(loudness)s, %(audio_format)s, %(audio_path)s, %(audio_url)s, %(processing_time)s, %(ip_address)s, %(from_manual_input)s, %(created_at)s, %(processed_at)s) RETURNING tts_records.id]
+[parameters: {'tts_upload_id': 0, 'user_email': 'go.teamchai@gmail.com', 'text_content': 'You are listening to a sample MP3 audio file provided by samplefiles.com.', 'language': 'English', 'speaker': 'anushka', 'gender': 'unknown', 'pitch': None, 'pace': None, 'loudness': None, 'audio_format': None, 'audio_path': '/uploads/tts_previews/a99e2317/final.wav', 'audio_url': '/uploads/tts_previews/a99e2317/final.wav', 'processing_time': None, 'ip_address': None, 'from_manual_input': True, 'created_at': datetime.datetime(2026, 1, 13, 6, 56, 23, 787291), 'processed_at': None}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2026-01-13 12:27:15,284 [INFO] Main - Logging initialized successfully
+2026-01-13 12:27:19,090 [INFO] Main - Incoming request: POST http://localhost:8000/tts/select-uploads
+2026-01-13 12:27:19,182 [INFO] Main - Response status: 200
+2026-01-13 12:27:19,186 [INFO] Main - Incoming request: POST http://localhost:8000/tts/generate-preview
+2026-01-13 12:27:21,791 [INFO] Main - Response status: 200
+2026-01-13 12:27:22,163 [INFO] Main - Incoming request: GET http://localhost:8000/uploads/tts_previews/39950150/final.wav
+2026-01-13 12:27:22,298 [INFO] Main - Response status: 206
+2026-01-13 12:27:24,400 [INFO] Main - Incoming request: POST http://localhost:8000/tts/confirm-and-store
+2026-01-13 12:27:24,431 [ERROR] Main - Middleware caught error: (psycopg2.errors.UndefinedColumn) column "from_manual_input" of relation "tts_records" does not exist
+LINE 1: ...dio_path, audio_url, processing_time, ip_address, from_manua...
+                                                             ^
+
+[SQL: INSERT INTO tts_records (tts_upload_id, user_email, text_content, language, speaker, gender, pitch, pace, loudness, audio_format, audio_path, audio_url, processing_time, ip_address, from_manual_input, created_at, processed_at) VALUES (%(tts_upload_id)s, %(user_email)s, %(text_content)s, %(language)s, %(speaker)s, %(gender)s, %(pitch)s, %(pace)s, %(loudness)s, %(audio_format)s, %(audio_path)s, %(audio_url)s, %(processing_time)s, %(ip_address)s, %(from_manual_input)s, %(created_at)s, %(processed_at)s) RETURNING tts_records.id]
+[parameters: {'tts_upload_id': 0, 'user_email': 'go.teamchai@gmail.com', 'text_content': 'You are listening to a sample MP3 audio file provided by samplefiles.com.', 'language': 'English', 'speaker': 'anushka', 'gender': 'unknown', 'pitch': None, 'pace': None, 'loudness': None, 'audio_format': None, 'audio_path': '/uploads/tts_previews/39950150/final.wav', 'audio_url': '/uploads/tts_previews/39950150/final.wav', 'processing_time': None, 'ip_address': None, 'from_manual_input': True, 'created_at': datetime.datetime(2026, 1, 13, 6, 57, 24, 414209), 'processed_at': None}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2026-01-13 12:28:01,088 [INFO] Main - Incoming request: GET http://localhost:8000/uploads/tts_previews/39950150/final.wav
+2026-01-13 12:28:01,099 [INFO] Main - Response status: 304
+2026-01-13 12:28:44,606 [INFO] Main - Logging initialized successfully
+2026-01-13 12:29:55,500 [INFO] Main - Logging initialized successfully
+2026-01-13 12:30:30,778 [INFO] Main - Logging initialized successfully
+2026-01-13 12:31:39,379 [INFO] Main - Logging initialized successfully
+2026-01-13 12:31:49,506 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 12:31:49,616 [INFO] Main - Response status: 200
+2026-01-13 12:31:49,683 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 12:31:49,692 [INFO] Main - Response status: 200
+2026-01-13 12:31:49,694 [INFO] Main - Incoming request: GET http://localhost:8000/tts/uploads
+2026-01-13 12:31:49,716 [INFO] Main - Response status: 200
+2026-01-13 12:31:55,693 [INFO] Main - Incoming request: POST http://localhost:8000/tts/select-uploads
+2026-01-13 12:31:55,707 [INFO] Main - Response status: 200
+2026-01-13 12:31:55,721 [INFO] Main - Incoming request: POST http://localhost:8000/tts/generate-preview
+2026-01-13 12:31:58,961 [INFO] Main - Response status: 200
+2026-01-13 12:31:59,341 [INFO] Main - Incoming request: GET http://localhost:8000/uploads/tts_previews/a04ccd2c/final.wav
+2026-01-13 12:31:59,535 [INFO] Main - Response status: 206
+2026-01-13 12:32:01,065 [INFO] Main - Incoming request: POST http://localhost:8000/tts/confirm-and-store
+2026-01-13 12:32:01,099 [INFO] Main - Response status: 200
+2026-01-13 12:32:01,110 [INFO] Main - Incoming request: GET http://localhost:8000/tts/uploads
+2026-01-13 12:32:01,125 [INFO] Main - Response status: 200
+2026-01-13 12:32:01,157 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 12:32:01,159 [INFO] Main - Incoming request: GET http://localhost:8000/tts/admin/records
+2026-01-13 12:32:01,228 [INFO] Main - Response status: 200
+2026-01-13 12:32:01,231 [INFO] Main - Response status: 200
+2026-01-13 12:32:01,233 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 12:32:01,235 [INFO] Main - Incoming request: GET http://localhost:8000/tts/admin/records
+2026-01-13 12:32:01,243 [INFO] Main - Response status: 200
+2026-01-13 12:32:01,244 [INFO] Main - Response status: 200
+2026-01-13 12:32:16,673 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/tts/admin/records/download-all
+2026-01-13 12:32:16,674 [INFO] Main - Response status: 200
+2026-01-13 12:32:16,679 [INFO] Main - Incoming request: GET http://localhost:8000/tts/admin/records/download-all
+2026-01-13 12:32:16,737 [INFO] Main - Response status: 200
+2026-01-13 12:32:26,355 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/tts/admin/records/17/download
+2026-01-13 12:32:26,356 [INFO] Main - Response status: 200
+2026-01-13 12:32:26,362 [INFO] Main - Incoming request: GET http://localhost:8000/tts/admin/records/17/download
+2026-01-13 12:32:26,384 [INFO] Main - Response status: 200
+2026-01-13 12:32:51,672 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 12:32:51,680 [INFO] Main - Response status: 200
+2026-01-13 12:32:51,706 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 12:32:51,718 [INFO] Main - Response status: 200
+2026-01-13 12:32:51,722 [INFO] Main - Incoming request: GET http://localhost:8000/tts/uploads
+2026-01-13 12:32:51,737 [INFO] Main - Response status: 200
+2026-01-13 12:32:52,748 [INFO] Main - Incoming request: GET http://localhost:8000/languages
+2026-01-13 12:32:52,750 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 12:32:52,763 [INFO] Main - Response status: 200
+2026-01-13 12:32:52,767 [INFO] Main - Response status: 200
+2026-01-13 12:32:52,785 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 12:32:52,800 [INFO] Main - Response status: 200
+2026-01-13 12:32:54,646 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 12:32:54,657 [INFO] Main - Response status: 200
+2026-01-13 12:32:54,672 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 12:32:54,674 [INFO] Main - Incoming request: GET http://localhost:8000/tts/uploads
+2026-01-13 12:32:54,689 [INFO] Main - Response status: 200
+2026-01-13 12:32:54,693 [INFO] Main - Response status: 200
+2026-01-13 12:32:59,520 [INFO] Main - Incoming request: POST http://localhost:8000/tts/select-uploads
+2026-01-13 12:32:59,529 [INFO] Main - Response status: 200
+2026-01-13 12:32:59,533 [INFO] Main - Incoming request: POST http://localhost:8000/tts/generate-preview
+2026-01-13 12:33:01,067 [INFO] Main - Response status: 200
+2026-01-13 12:33:01,406 [INFO] Main - Incoming request: GET http://localhost:8000/uploads/tts_previews/9253d11e/final.wav
+2026-01-13 12:33:01,411 [INFO] Main - Response status: 206
+2026-01-13 12:33:08,529 [INFO] Main - Incoming request: POST http://localhost:8000/tts/select-uploads
+2026-01-13 12:33:08,542 [INFO] Main - Response status: 200
+2026-01-13 12:33:08,549 [INFO] Main - Incoming request: POST http://localhost:8000/tts/generate-preview
+2026-01-13 12:33:10,111 [INFO] Main - Response status: 200
+2026-01-13 12:33:10,129 [INFO] Main - Incoming request: GET http://localhost:8000/uploads/tts_previews/57659801/final.wav
+2026-01-13 12:33:10,131 [INFO] Main - Response status: 206
+2026-01-13 12:33:21,709 [INFO] Main - Incoming request: POST http://localhost:8000/tts/select-uploads
+2026-01-13 12:33:21,720 [INFO] Main - Response status: 200
+2026-01-13 12:33:21,729 [INFO] Main - Incoming request: POST http://localhost:8000/tts/generate-preview
+2026-01-13 12:33:23,566 [INFO] Main - Response status: 200
+2026-01-13 12:33:23,902 [INFO] Main - Incoming request: GET http://localhost:8000/uploads/tts_previews/b70fdb37/final.wav
+2026-01-13 12:33:23,904 [INFO] Main - Response status: 206
+2026-01-13 12:33:28,961 [INFO] Main - Incoming request: POST http://localhost:8000/tts/confirm-and-store
+2026-01-13 12:33:28,980 [INFO] Main - Response status: 200
+2026-01-13 12:33:28,995 [INFO] Main - Incoming request: GET http://localhost:8000/tts/uploads
+2026-01-13 12:33:29,007 [INFO] Main - Response status: 200
+2026-01-13 12:33:29,028 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 12:33:29,036 [INFO] Main - Response status: 200
+2026-01-13 12:33:29,048 [INFO] Main - Incoming request: GET http://localhost:8000/tts/admin/records
+2026-01-13 12:33:29,058 [INFO] Main - Response status: 200
+2026-01-13 12:33:29,063 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 12:33:29,067 [INFO] Main - Response status: 200
+2026-01-13 12:33:29,072 [INFO] Main - Incoming request: GET http://localhost:8000/tts/admin/records
+2026-01-13 12:33:29,078 [INFO] Main - Response status: 200
+2026-01-13 12:33:29,125 [INFO] Main - Incoming request: GET http://localhost:8000/uploads/tts_previews/a04ccd2c/final.wav
+2026-01-13 12:33:29,127 [INFO] Main - Response status: 304
+2026-01-13 12:33:30,650 [INFO] Main - Incoming request: GET http://localhost:8000/tts/admin/records/download-all
+2026-01-13 12:33:30,704 [INFO] Main - Response status: 200
+2026-01-13 12:41:33,349 [INFO] Main - Logging initialized successfully
+2026-01-13 12:43:53,074 [INFO] Main - Logging initialized successfully
+2026-01-13 12:44:19,017 [INFO] Main - Incoming request: POST http://localhost:8000/token
+2026-01-13 12:44:19,510 [INFO] Main - Response status: 200
+2026-01-13 12:44:19,527 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/users/me
+2026-01-13 12:44:19,527 [INFO] Main - Response status: 200
+2026-01-13 12:44:19,535 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 12:44:19,558 [INFO] Main - Response status: 200
+2026-01-13 12:44:19,632 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 12:44:19,636 [INFO] Main - Response status: 200
+2026-01-13 12:44:23,271 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 12:44:23,276 [INFO] Main - Response status: 200
+2026-01-13 12:44:23,279 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 12:44:23,284 [INFO] Main - Response status: 200
+2026-01-13 12:44:23,291 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/user/uploaded-audio-files
+2026-01-13 12:44:23,293 [INFO] Main - Response status: 200
+2026-01-13 12:44:23,297 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-13 12:44:23,312 [INFO] Main - Response status: 200
+2026-01-13 12:44:26,024 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/admin/saved-records
+2026-01-13 12:44:26,026 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 12:44:26,028 [INFO] Main - Response status: 200
+2026-01-13 12:44:26,035 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/admin/saved-records
+2026-01-13 12:44:26,037 [INFO] Main - Response status: 200
+2026-01-13 12:44:26,042 [INFO] Main - Response status: 200
+2026-01-13 12:44:26,046 [INFO] Main - Incoming request: GET http://localhost:8000/admin/saved-records
+2026-01-13 12:44:26,052 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 12:44:26,136 [INFO] Main - Response status: 200
+2026-01-13 12:44:26,146 [INFO] Main - Response status: 200
+2026-01-13 12:44:26,152 [INFO] Main - Incoming request: GET http://localhost:8000/admin/saved-records
+2026-01-13 12:44:26,162 [INFO] Main - Response status: 200
+2026-01-13 12:44:29,751 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/admin/saved-records/24/reassign
+2026-01-13 12:44:29,753 [INFO] Main - Response status: 200
+2026-01-13 12:44:29,760 [INFO] Main - Incoming request: POST http://localhost:8000/admin/saved-records/24/reassign
+2026-01-13 12:44:29,807 [INFO] Main - Response status: 200
+2026-01-13 12:44:29,813 [INFO] Main - Incoming request: GET http://localhost:8000/admin/saved-records
+2026-01-13 12:44:29,821 [INFO] Main - Response status: 200
+2026-01-13 12:44:31,695 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 12:44:31,706 [INFO] Main - Response status: 200
+2026-01-13 12:44:31,728 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 12:44:31,736 [INFO] Main - Response status: 200
+2026-01-13 12:44:31,771 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-13 12:44:31,778 [INFO] Main - Response status: 200
+2026-01-13 12:44:35,230 [INFO] Main - Incoming request: GET http://localhost:8000/uploads/30cb692f83b74ffab6b85b5d310156b9.mp3
+2026-01-13 12:44:35,405 [INFO] Main - Response status: 206
+2026-01-13 12:44:41,524 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/user/confirm-audio-transcription
+2026-01-13 12:44:41,526 [INFO] Main - Response status: 200
+2026-01-13 12:44:41,531 [INFO] Main - Incoming request: POST http://localhost:8000/user/confirm-audio-transcription
+2026-01-13 12:44:41,582 [INFO] Main - Response status: 200
+2026-01-13 12:44:41,590 [INFO] Main - Incoming request: GET http://localhost:8000/user/uploaded-audio-files
+2026-01-13 12:44:41,607 [INFO] Main - Response status: 200
+2026-01-13 12:44:44,140 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 12:44:44,147 [INFO] Main - Incoming request: GET http://localhost:8000/admin/saved-records
+2026-01-13 12:44:44,174 [INFO] Main - Response status: 200
+2026-01-13 12:44:44,176 [INFO] Main - Response status: 200
+2026-01-13 12:44:44,182 [INFO] Main - Incoming request: GET http://localhost:8000/admin/saved-records
+2026-01-13 12:44:44,183 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 12:44:44,195 [INFO] Main - Response status: 200
+2026-01-13 12:44:44,197 [INFO] Main - Response status: 200
+2026-01-13 12:44:45,600 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/admin/saved-records/25/download
+2026-01-13 12:44:45,601 [INFO] Main - Response status: 200
+2026-01-13 12:44:45,604 [INFO] Main - Incoming request: GET http://localhost:8000/admin/saved-records/25/download
+2026-01-13 12:44:45,610 [INFO] Main - Response status: 200
+2026-01-13 12:45:09,198 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 12:45:09,207 [INFO] Main - Response status: 200
+2026-01-13 12:45:09,226 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/tts/uploads
+2026-01-13 12:45:09,227 [INFO] Main - Response status: 200
+2026-01-13 12:45:09,232 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 12:45:09,239 [INFO] Main - Response status: 200
+2026-01-13 12:45:09,244 [INFO] Main - Incoming request: GET http://localhost:8000/tts/uploads
+2026-01-13 12:45:09,266 [INFO] Main - Response status: 200
+2026-01-13 12:45:10,403 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/tts/admin/records
+2026-01-13 12:45:10,405 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/tts/admin/records
+2026-01-13 12:45:10,406 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 12:45:10,409 [INFO] Main - Response status: 200
+2026-01-13 12:45:10,414 [INFO] Main - Response status: 200
+2026-01-13 12:45:10,424 [INFO] Main - Incoming request: GET http://localhost:8000/tts/admin/records
+2026-01-13 12:45:10,439 [INFO] Main - Response status: 200
+2026-01-13 12:45:10,445 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 12:45:10,451 [INFO] Main - Response status: 200
+2026-01-13 12:45:10,455 [INFO] Main - Incoming request: GET http://localhost:8000/tts/admin/records
+2026-01-13 12:45:10,457 [INFO] Main - Response status: 200
+2026-01-13 12:45:10,471 [INFO] Main - Response status: 200
+2026-01-13 12:45:10,488 [INFO] Main - Incoming request: GET http://localhost:8000/uploads/tts_previews/b70fdb37/final.wav
+2026-01-13 12:45:10,491 [INFO] Main - Response status: 304
+2026-01-13 12:45:10,494 [INFO] Main - Incoming request: GET http://localhost:8000/uploads/tts_previews/a04ccd2c/final.wav
+2026-01-13 12:45:10,499 [INFO] Main - Response status: 304
+2026-01-13 12:45:16,255 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/tts/admin/records/18
+2026-01-13 12:45:16,257 [INFO] Main - Response status: 200
+2026-01-13 12:45:16,260 [INFO] Main - Incoming request: DELETE http://localhost:8000/tts/admin/records/18
+2026-01-13 12:45:16,279 [INFO] Main - Response status: 200
+2026-01-13 12:45:16,288 [INFO] Main - Incoming request: GET http://localhost:8000/tts/admin/records
+2026-01-13 12:45:16,301 [INFO] Main - Response status: 200
+2026-01-13 12:45:18,232 [INFO] Main - Incoming request: OPTIONS http://localhost:8000/tts/admin/records/17
+2026-01-13 12:45:18,234 [INFO] Main - Response status: 200
+2026-01-13 12:45:18,238 [INFO] Main - Incoming request: DELETE http://localhost:8000/tts/admin/records/17
+2026-01-13 12:45:18,263 [INFO] Main - Response status: 200
+2026-01-13 12:45:18,271 [INFO] Main - Incoming request: GET http://localhost:8000/tts/admin/records
+2026-01-13 12:45:18,280 [INFO] Main - Response status: 200
+2026-01-13 12:45:19,474 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 12:45:19,486 [INFO] Main - Response status: 200
+2026-01-13 12:45:19,498 [INFO] Main - Incoming request: GET http://localhost:8000/users/me
+2026-01-13 12:45:19,500 [INFO] Main - Incoming request: GET http://localhost:8000/tts/uploads
+2026-01-13 12:45:19,510 [INFO] Main - Response status: 200
+2026-01-13 12:45:19,513 [INFO] Main - Response status: 200

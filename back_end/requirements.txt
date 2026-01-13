@@ -1,0 +1,26 @@
+# english and telugu asr
+
+fastapi
+uvicorn
+pydub
+natsort
+python-dotenv
+sarvamai
+transformers
+python-multipart
+sqlalchemy
+psycopg2-binary
+passlib[bcrypt]
+python-jose[cryptography]
+
+# english_asr
+
+torch==2.9.0
+torchcodec==0.8.1
+torchaudio==2.9.0
+
+# Need to install separately for audio processing
+
+soundfile
+audioread
+gunicorn

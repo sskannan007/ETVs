@@ -1,0 +1,375 @@
+2025-12-05 11:31:34,620 [INFO] TTS - [START REQUEST] 2025-12-05T06:01:34.620744 | From: 127.0.0.1 | UID: fe14c880
+2025-12-05 11:31:34,623 [INFO] TTS - Created temp directory: temp_tts/fe14c880
+2025-12-05 11:31:34,624 [INFO] TTS - Read text from uploaded file: Telugu_Sample_1.txt
+2025-12-05 11:31:34,624 [INFO] TTS - Selected language: telugu | Code: en-IN | Speaker: hitesh
+2025-12-05 11:31:34,624 [INFO] TTS - Splitting text into chunks...
+2025-12-05 11:31:34,624 [INFO] TTS - Generating TTS for chunk 1/20
+2025-12-05 11:31:36,292 [INFO] TTS - Saved chunk 1 at: temp_tts/fe14c880/chunk_1.wav
+2025-12-05 11:31:36,292 [INFO] TTS - Generating TTS for chunk 2/20
+2025-12-05 11:31:37,581 [INFO] TTS - Saved chunk 2 at: temp_tts/fe14c880/chunk_2.wav
+2025-12-05 11:31:37,581 [INFO] TTS - Generating TTS for chunk 3/20
+2025-12-05 11:31:38,232 [INFO] TTS - Saved chunk 3 at: temp_tts/fe14c880/chunk_3.wav
+2025-12-05 11:31:38,232 [INFO] TTS - Generating TTS for chunk 4/20
+2025-12-05 11:31:39,189 [INFO] TTS - Saved chunk 4 at: temp_tts/fe14c880/chunk_4.wav
+2025-12-05 11:31:39,189 [INFO] TTS - Generating TTS for chunk 5/20
+2025-12-05 11:31:40,381 [INFO] TTS - Saved chunk 5 at: temp_tts/fe14c880/chunk_5.wav
+2025-12-05 11:31:40,381 [INFO] TTS - Generating TTS for chunk 6/20
+2025-12-05 11:31:41,437 [INFO] TTS - Saved chunk 6 at: temp_tts/fe14c880/chunk_6.wav
+2025-12-05 11:31:41,437 [INFO] TTS - Generating TTS for chunk 7/20
+2025-12-05 11:31:42,626 [INFO] TTS - Saved chunk 7 at: temp_tts/fe14c880/chunk_7.wav
+2025-12-05 11:31:42,626 [INFO] TTS - Generating TTS for chunk 8/20
+2025-12-05 11:31:44,185 [INFO] TTS - Saved chunk 8 at: temp_tts/fe14c880/chunk_8.wav
+2025-12-05 11:31:44,185 [INFO] TTS - Generating TTS for chunk 9/20
+2025-12-05 11:31:45,432 [INFO] TTS - Saved chunk 9 at: temp_tts/fe14c880/chunk_9.wav
+2025-12-05 11:31:45,432 [INFO] TTS - Generating TTS for chunk 10/20
+2025-12-05 11:31:46,878 [INFO] TTS - Saved chunk 10 at: temp_tts/fe14c880/chunk_10.wav
+2025-12-05 11:31:46,878 [INFO] TTS - Generating TTS for chunk 11/20
+2025-12-05 11:31:47,792 [INFO] TTS - Saved chunk 11 at: temp_tts/fe14c880/chunk_11.wav
+2025-12-05 11:31:47,793 [INFO] TTS - Generating TTS for chunk 12/20
+2025-12-05 11:31:49,172 [INFO] TTS - Saved chunk 12 at: temp_tts/fe14c880/chunk_12.wav
+2025-12-05 11:31:49,172 [INFO] TTS - Generating TTS for chunk 13/20
+2025-12-05 11:31:50,401 [INFO] TTS - Saved chunk 13 at: temp_tts/fe14c880/chunk_13.wav
+2025-12-05 11:31:50,401 [INFO] TTS - Generating TTS for chunk 14/20
+2025-12-05 11:31:51,210 [INFO] TTS - Saved chunk 14 at: temp_tts/fe14c880/chunk_14.wav
+2025-12-05 11:31:51,210 [INFO] TTS - Generating TTS for chunk 15/20
+2025-12-05 11:31:52,222 [INFO] TTS - Saved chunk 15 at: temp_tts/fe14c880/chunk_15.wav
+2025-12-05 11:31:52,222 [INFO] TTS - Generating TTS for chunk 16/20
+2025-12-05 11:31:53,756 [INFO] TTS - Saved chunk 16 at: temp_tts/fe14c880/chunk_16.wav
+2025-12-05 11:31:53,757 [INFO] TTS - Generating TTS for chunk 17/20
+2025-12-05 11:31:52,063 [INFO] TTS - Saved chunk 17 at: temp_tts/fe14c880/chunk_17.wav
+2025-12-05 11:31:52,063 [INFO] TTS - Generating TTS for chunk 18/20
+2025-12-05 11:31:53,269 [INFO] TTS - Saved chunk 18 at: temp_tts/fe14c880/chunk_18.wav
+2025-12-05 11:31:53,269 [INFO] TTS - Generating TTS for chunk 19/20
+2025-12-05 11:31:54,514 [INFO] TTS - Saved chunk 19 at: temp_tts/fe14c880/chunk_19.wav
+2025-12-05 11:31:54,514 [INFO] TTS - Generating TTS for chunk 20/20
+2025-12-05 11:31:55,167 [INFO] TTS - Saved chunk 20 at: temp_tts/fe14c880/chunk_20.wav
+2025-12-05 11:31:55,167 [INFO] TTS - Combining chunks into final audio...
+2025-12-05 11:31:55,202 [INFO] TTS - Final TTS audio saved at: temp_tts/fe14c880/final.wav
+2025-12-05 11:31:55,203 [INFO] TTS - [END REQUEST] 2025-12-05T06:01:55.203152 | UID: fe14c880 | Processing Time: 0.34 mins | Client: 127.0.0.1
+2025-12-05 11:31:55,211 [INFO] TTS - Cleaned temp directory: temp_tts/fe14c880
+2025-12-05 11:33:31,502 [INFO] TTS - [START REQUEST] 2025-12-05T06:03:31.502114 | From: 127.0.0.1 | UID: ee133ebb
+2025-12-05 11:33:31,502 [INFO] TTS - Created temp directory: temp_tts/ee133ebb
+2025-12-05 11:33:31,502 [INFO] TTS - Read text from uploaded file: Telugu_Sample_1.txt
+2025-12-05 11:33:31,502 [INFO] TTS - Selected language: Telugu | Code: te-IN | Speaker: hitesh
+2025-12-05 11:33:31,503 [INFO] TTS - Splitting text into chunks...
+2025-12-05 11:33:31,503 [INFO] TTS - Generating TTS for chunk 1/20
+2025-12-05 11:33:33,049 [INFO] TTS - Saved chunk 1 at: temp_tts/ee133ebb/chunk_1.wav
+2025-12-05 11:33:33,049 [INFO] TTS - Generating TTS for chunk 2/20
+2025-12-05 11:33:34,379 [INFO] TTS - Saved chunk 2 at: temp_tts/ee133ebb/chunk_2.wav
+2025-12-05 11:33:34,380 [INFO] TTS - Generating TTS for chunk 3/20
+2025-12-05 11:33:35,506 [INFO] TTS - Saved chunk 3 at: temp_tts/ee133ebb/chunk_3.wav
+2025-12-05 11:33:35,506 [INFO] TTS - Generating TTS for chunk 4/20
+2025-12-05 11:33:36,787 [INFO] TTS - Saved chunk 4 at: temp_tts/ee133ebb/chunk_4.wav
+2025-12-05 11:33:36,787 [INFO] TTS - Generating TTS for chunk 5/20
+2025-12-05 11:33:37,761 [INFO] TTS - Saved chunk 5 at: temp_tts/ee133ebb/chunk_5.wav
+2025-12-05 11:33:37,761 [INFO] TTS - Generating TTS for chunk 6/20
+2025-12-05 11:33:38,757 [INFO] TTS - Saved chunk 6 at: temp_tts/ee133ebb/chunk_6.wav
+2025-12-05 11:33:38,757 [INFO] TTS - Generating TTS for chunk 7/20
+2025-12-05 11:33:39,943 [INFO] TTS - Saved chunk 7 at: temp_tts/ee133ebb/chunk_7.wav
+2025-12-05 11:33:39,943 [INFO] TTS - Generating TTS for chunk 8/20
+2025-12-05 11:33:41,561 [INFO] TTS - Saved chunk 8 at: temp_tts/ee133ebb/chunk_8.wav
+2025-12-05 11:33:41,562 [INFO] TTS - Generating TTS for chunk 9/20
+2025-12-05 11:33:42,526 [INFO] TTS - Saved chunk 9 at: temp_tts/ee133ebb/chunk_9.wav
+2025-12-05 11:33:42,527 [INFO] TTS - Generating TTS for chunk 10/20
+2025-12-05 11:33:43,661 [INFO] TTS - Saved chunk 10 at: temp_tts/ee133ebb/chunk_10.wav
+2025-12-05 11:33:43,661 [INFO] TTS - Generating TTS for chunk 11/20
+2025-12-05 11:33:44,570 [INFO] TTS - Saved chunk 11 at: temp_tts/ee133ebb/chunk_11.wav
+2025-12-05 11:33:44,570 [INFO] TTS - Generating TTS for chunk 12/20
+2025-12-05 11:33:45,946 [INFO] TTS - Saved chunk 12 at: temp_tts/ee133ebb/chunk_12.wav
+2025-12-05 11:33:45,946 [INFO] TTS - Generating TTS for chunk 13/20
+2025-12-05 11:33:47,226 [INFO] TTS - Saved chunk 13 at: temp_tts/ee133ebb/chunk_13.wav
+2025-12-05 11:33:47,226 [INFO] TTS - Generating TTS for chunk 14/20
+2025-12-05 11:33:48,430 [INFO] TTS - Saved chunk 14 at: temp_tts/ee133ebb/chunk_14.wav
+2025-12-05 11:33:48,430 [INFO] TTS - Generating TTS for chunk 15/20
+2025-12-05 11:33:49,464 [INFO] TTS - Saved chunk 15 at: temp_tts/ee133ebb/chunk_15.wav
+2025-12-05 11:33:49,465 [INFO] TTS - Generating TTS for chunk 16/20
+2025-12-05 11:33:51,197 [INFO] TTS - Saved chunk 16 at: temp_tts/ee133ebb/chunk_16.wav
+2025-12-05 11:33:51,197 [INFO] TTS - Generating TTS for chunk 17/20
+2025-12-05 11:33:52,424 [INFO] TTS - Saved chunk 17 at: temp_tts/ee133ebb/chunk_17.wav
+2025-12-05 11:33:52,424 [INFO] TTS - Generating TTS for chunk 18/20
+2025-12-05 11:33:53,616 [INFO] TTS - Saved chunk 18 at: temp_tts/ee133ebb/chunk_18.wav
+2025-12-05 11:33:53,616 [INFO] TTS - Generating TTS for chunk 19/20
+2025-12-05 11:33:52,289 [INFO] TTS - Saved chunk 19 at: temp_tts/ee133ebb/chunk_19.wav
+2025-12-05 11:33:52,289 [INFO] TTS - Generating TTS for chunk 20/20
+2025-12-05 11:33:53,229 [INFO] TTS - Saved chunk 20 at: temp_tts/ee133ebb/chunk_20.wav
+2025-12-05 11:33:53,229 [INFO] TTS - Combining chunks into final audio...
+2025-12-05 11:33:53,248 [INFO] TTS - Final TTS audio saved at: temp_tts/ee133ebb/final.wav
+2025-12-05 11:33:53,248 [INFO] TTS - [END REQUEST] 2025-12-05T06:03:53.248915 | UID: ee133ebb | Processing Time: 0.36 mins | Client: 127.0.0.1
+2025-12-05 11:33:53,250 [INFO] TTS - Cleaned temp directory: temp_tts/ee133ebb
+2025-12-05 11:36:38,899 [INFO] TTS - [START REQUEST] 2025-12-05T06:06:38.899558 | From: 127.0.0.1 | UID: 0913b7b4
+2025-12-05 11:36:38,900 [INFO] TTS - Created temp directory: temp_tts/0913b7b4
+2025-12-05 11:36:38,900 [INFO] TTS - Read text from uploaded file: Telugu_Sample_1.txt
+2025-12-05 11:36:38,900 [INFO] TTS - Selected language: telugu | Code: te-IN | Speaker: hitesh
+2025-12-05 11:36:38,900 [INFO] TTS - Splitting text into chunks...
+2025-12-05 11:36:38,901 [INFO] TTS - Generating TTS for chunk 1/20
+2025-12-05 11:36:40,139 [INFO] TTS - Saved chunk 1 at: temp_tts/0913b7b4/chunk_1.wav
+2025-12-05 11:36:40,139 [INFO] TTS - Generating TTS for chunk 2/20
+2025-12-05 11:36:41,681 [INFO] TTS - Saved chunk 2 at: temp_tts/0913b7b4/chunk_2.wav
+2025-12-05 11:36:41,681 [INFO] TTS - Generating TTS for chunk 3/20
+2025-12-05 11:36:42,413 [INFO] TTS - Saved chunk 3 at: temp_tts/0913b7b4/chunk_3.wav
+2025-12-05 11:36:42,413 [INFO] TTS - Generating TTS for chunk 4/20
+2025-12-05 11:36:43,756 [INFO] TTS - Saved chunk 4 at: temp_tts/0913b7b4/chunk_4.wav
+2025-12-05 11:36:43,756 [INFO] TTS - Generating TTS for chunk 5/20
+2025-12-05 11:36:45,146 [INFO] TTS - Saved chunk 5 at: temp_tts/0913b7b4/chunk_5.wav
+2025-12-05 11:36:45,146 [INFO] TTS - Generating TTS for chunk 6/20
+2025-12-05 11:36:45,904 [INFO] TTS - Saved chunk 6 at: temp_tts/0913b7b4/chunk_6.wav
+2025-12-05 11:36:45,905 [INFO] TTS - Generating TTS for chunk 7/20
+2025-12-05 11:36:47,146 [INFO] TTS - Saved chunk 7 at: temp_tts/0913b7b4/chunk_7.wav
+2025-12-05 11:36:47,146 [INFO] TTS - Generating TTS for chunk 8/20
+2025-12-05 11:36:48,724 [INFO] TTS - Saved chunk 8 at: temp_tts/0913b7b4/chunk_8.wav
+2025-12-05 11:36:48,724 [INFO] TTS - Generating TTS for chunk 9/20
+2025-12-05 11:36:49,950 [INFO] TTS - Saved chunk 9 at: temp_tts/0913b7b4/chunk_9.wav
+2025-12-05 11:36:49,950 [INFO] TTS - Generating TTS for chunk 10/20
+2025-12-05 11:36:51,355 [INFO] TTS - Saved chunk 10 at: temp_tts/0913b7b4/chunk_10.wav
+2025-12-05 11:36:51,355 [INFO] TTS - Generating TTS for chunk 11/20
+2025-12-05 11:36:52,231 [INFO] TTS - Saved chunk 11 at: temp_tts/0913b7b4/chunk_11.wav
+2025-12-05 11:36:52,231 [INFO] TTS - Generating TTS for chunk 12/20
+2025-12-05 11:36:51,134 [INFO] TTS - Saved chunk 12 at: temp_tts/0913b7b4/chunk_12.wav
+2025-12-05 11:36:51,134 [INFO] TTS - Generating TTS for chunk 13/20
+2025-12-05 11:36:52,349 [INFO] TTS - Saved chunk 13 at: temp_tts/0913b7b4/chunk_13.wav
+2025-12-05 11:36:52,350 [INFO] TTS - Generating TTS for chunk 14/20
+2025-12-05 11:36:53,610 [INFO] TTS - Saved chunk 14 at: temp_tts/0913b7b4/chunk_14.wav
+2025-12-05 11:36:53,610 [INFO] TTS - Generating TTS for chunk 15/20
+2025-12-05 11:36:54,759 [INFO] TTS - Saved chunk 15 at: temp_tts/0913b7b4/chunk_15.wav
+2025-12-05 11:36:54,760 [INFO] TTS - Generating TTS for chunk 16/20
+2025-12-05 11:36:56,436 [INFO] TTS - Saved chunk 16 at: temp_tts/0913b7b4/chunk_16.wav
+2025-12-05 11:36:56,437 [INFO] TTS - Generating TTS for chunk 17/20
+2025-12-05 11:36:57,589 [INFO] TTS - Saved chunk 17 at: temp_tts/0913b7b4/chunk_17.wav
+2025-12-05 11:36:57,589 [INFO] TTS - Generating TTS for chunk 18/20
+2025-12-05 11:36:58,871 [INFO] TTS - Saved chunk 18 at: temp_tts/0913b7b4/chunk_18.wav
+2025-12-05 11:36:58,871 [INFO] TTS - Generating TTS for chunk 19/20
+2025-12-05 11:37:00,070 [INFO] TTS - Saved chunk 19 at: temp_tts/0913b7b4/chunk_19.wav
+2025-12-05 11:37:00,070 [INFO] TTS - Generating TTS for chunk 20/20
+2025-12-05 11:37:00,870 [INFO] TTS - Saved chunk 20 at: temp_tts/0913b7b4/chunk_20.wav
+2025-12-05 11:37:00,870 [INFO] TTS - Combining chunks into final audio...
+2025-12-05 11:37:00,906 [INFO] TTS - Final TTS audio saved at: temp_tts/0913b7b4/final.wav
+2025-12-05 11:37:00,907 [INFO] TTS - [END REQUEST] 2025-12-05T06:07:00.907027 | UID: 0913b7b4 | Processing Time: 0.37 mins | Client: 127.0.0.1
+2025-12-05 11:37:00,911 [INFO] TTS - Cleaned temp directory: temp_tts/0913b7b4
+2025-12-05 11:39:02,231 [INFO] TTS - [START REQUEST] 2025-12-05T06:09:02.231705 | From: 127.0.0.1 | UID: e3e2cd91
+2025-12-05 11:39:02,232 [INFO] TTS - Created temp directory: temp_tts/e3e2cd91
+2025-12-05 11:39:02,232 [INFO] TTS - Read text from uploaded file: Telugu_Sample_1.txt
+2025-12-05 11:39:02,232 [INFO] TTS - Selected language: Telugu | Code: te-IN | Speaker: hitesh
+2025-12-05 11:39:02,233 [INFO] TTS - Splitting text into chunks...
+2025-12-05 11:39:02,233 [INFO] TTS - Generating TTS for chunk 1/20
+2025-12-05 11:39:03,907 [INFO] TTS - Saved chunk 1 at: temp_tts/e3e2cd91/chunk_1.wav
+2025-12-05 11:39:03,907 [INFO] TTS - Generating TTS for chunk 2/20
+2025-12-05 11:39:04,983 [INFO] TTS - Saved chunk 2 at: temp_tts/e3e2cd91/chunk_2.wav
+2025-12-05 11:39:04,983 [INFO] TTS - Generating TTS for chunk 3/20
+2025-12-05 11:39:05,719 [INFO] TTS - Saved chunk 3 at: temp_tts/e3e2cd91/chunk_3.wav
+2025-12-05 11:39:05,719 [INFO] TTS - Generating TTS for chunk 4/20
+2025-12-05 11:39:06,740 [INFO] TTS - Saved chunk 4 at: temp_tts/e3e2cd91/chunk_4.wav
+2025-12-05 11:39:06,740 [INFO] TTS - Generating TTS for chunk 5/20
+2025-12-05 11:39:08,013 [INFO] TTS - Saved chunk 5 at: temp_tts/e3e2cd91/chunk_5.wav
+2025-12-05 11:39:08,013 [INFO] TTS - Generating TTS for chunk 6/20
+2025-12-05 11:39:08,818 [INFO] TTS - Saved chunk 6 at: temp_tts/e3e2cd91/chunk_6.wav
+2025-12-05 11:39:08,819 [INFO] TTS - Generating TTS for chunk 7/20
+2025-12-05 11:39:09,762 [INFO] TTS - Saved chunk 7 at: temp_tts/e3e2cd91/chunk_7.wav
+2025-12-05 11:39:09,762 [INFO] TTS - Generating TTS for chunk 8/20
+2025-12-05 11:39:11,294 [INFO] TTS - Saved chunk 8 at: temp_tts/e3e2cd91/chunk_8.wav
+2025-12-05 11:39:11,294 [INFO] TTS - Generating TTS for chunk 9/20
+2025-12-05 11:39:12,650 [INFO] TTS - Saved chunk 9 at: temp_tts/e3e2cd91/chunk_9.wav
+2025-12-05 11:39:12,650 [INFO] TTS - Generating TTS for chunk 10/20
+2025-12-05 11:39:13,806 [INFO] TTS - Saved chunk 10 at: temp_tts/e3e2cd91/chunk_10.wav
+2025-12-05 11:39:13,807 [INFO] TTS - Generating TTS for chunk 11/20
+2025-12-05 11:39:14,867 [INFO] TTS - Saved chunk 11 at: temp_tts/e3e2cd91/chunk_11.wav
+2025-12-05 11:39:14,867 [INFO] TTS - Generating TTS for chunk 12/20
+2025-12-05 11:39:16,391 [INFO] TTS - Saved chunk 12 at: temp_tts/e3e2cd91/chunk_12.wav
+2025-12-05 11:39:16,392 [INFO] TTS - Generating TTS for chunk 13/20
+2025-12-05 11:39:17,342 [INFO] TTS - Saved chunk 13 at: temp_tts/e3e2cd91/chunk_13.wav
+2025-12-05 11:39:17,343 [INFO] TTS - Generating TTS for chunk 14/20
+2025-12-05 11:39:18,545 [INFO] TTS - Saved chunk 14 at: temp_tts/e3e2cd91/chunk_14.wav
+2025-12-05 11:39:18,545 [INFO] TTS - Generating TTS for chunk 15/20
+2025-12-05 11:39:19,386 [INFO] TTS - Saved chunk 15 at: temp_tts/e3e2cd91/chunk_15.wav
+2025-12-05 11:39:19,386 [INFO] TTS - Generating TTS for chunk 16/20
+2025-12-05 11:39:21,015 [INFO] TTS - Saved chunk 16 at: temp_tts/e3e2cd91/chunk_16.wav
+2025-12-05 11:39:21,015 [INFO] TTS - Generating TTS for chunk 17/20
+2025-12-05 11:39:19,711 [INFO] TTS - Saved chunk 17 at: temp_tts/e3e2cd91/chunk_17.wav
+2025-12-05 11:39:19,712 [INFO] TTS - Generating TTS for chunk 18/20
+2025-12-05 11:39:20,983 [INFO] TTS - Saved chunk 18 at: temp_tts/e3e2cd91/chunk_18.wav
+2025-12-05 11:39:20,983 [INFO] TTS - Generating TTS for chunk 19/20
+2025-12-05 11:39:22,317 [INFO] TTS - Saved chunk 19 at: temp_tts/e3e2cd91/chunk_19.wav
+2025-12-05 11:39:22,318 [INFO] TTS - Generating TTS for chunk 20/20
+2025-12-05 11:39:23,324 [INFO] TTS - Saved chunk 20 at: temp_tts/e3e2cd91/chunk_20.wav
+2025-12-05 11:39:23,324 [INFO] TTS - Combining chunks into final audio...
+2025-12-05 11:39:23,360 [INFO] TTS - Final TTS audio saved at: temp_tts/e3e2cd91/final.wav
+2025-12-05 11:39:23,360 [INFO] TTS - [END REQUEST] 2025-12-05T06:09:23.360652 | UID: e3e2cd91 | Processing Time: 0.35 mins | Client: 127.0.0.1
+2025-12-05 11:39:23,361 [INFO] TTS - Scheduled cleanup of temp directory: temp_tts/e3e2cd91
+2025-12-05 11:39:40,437 [INFO] TTS - [START REQUEST] 2025-12-05T06:09:40.437665 | From: 127.0.0.1 | UID: b3d965f7
+2025-12-05 11:39:40,438 [INFO] TTS - Created temp directory: temp_tts/b3d965f7
+2025-12-05 11:39:40,438 [INFO] TTS - Read text from uploaded file: Telugu_Sample_1.txt
+2025-12-05 11:39:40,438 [INFO] TTS - Selected language: Telugu | Code: te-IN | Speaker: hitesh
+2025-12-05 11:39:40,438 [INFO] TTS - Splitting text into chunks...
+2025-12-05 11:39:40,438 [INFO] TTS - Generating TTS for chunk 1/20
+2025-12-05 11:39:42,778 [INFO] TTS - Saved chunk 1 at: temp_tts/b3d965f7/chunk_1.wav
+2025-12-05 11:39:42,778 [INFO] TTS - Generating TTS for chunk 2/20
+2025-12-05 11:39:44,084 [INFO] TTS - Saved chunk 2 at: temp_tts/b3d965f7/chunk_2.wav
+2025-12-05 11:39:44,084 [INFO] TTS - Generating TTS for chunk 3/20
+2025-12-05 11:39:45,320 [INFO] TTS - Saved chunk 3 at: temp_tts/b3d965f7/chunk_3.wav
+2025-12-05 11:39:45,320 [INFO] TTS - Generating TTS for chunk 4/20
+2025-12-05 11:39:46,476 [INFO] TTS - Saved chunk 4 at: temp_tts/b3d965f7/chunk_4.wav
+2025-12-05 11:39:46,477 [INFO] TTS - Generating TTS for chunk 5/20
+2025-12-05 11:39:47,503 [INFO] TTS - Saved chunk 5 at: temp_tts/b3d965f7/chunk_5.wav
+2025-12-05 11:39:47,503 [INFO] TTS - Generating TTS for chunk 6/20
+2025-12-05 11:39:48,403 [INFO] TTS - Saved chunk 6 at: temp_tts/b3d965f7/chunk_6.wav
+2025-12-05 11:39:48,404 [INFO] TTS - Generating TTS for chunk 7/20
+2025-12-05 11:39:49,463 [INFO] TTS - Saved chunk 7 at: temp_tts/b3d965f7/chunk_7.wav
+2025-12-05 11:39:49,463 [INFO] TTS - Generating TTS for chunk 8/20
+2025-12-05 11:39:51,089 [INFO] TTS - Saved chunk 8 at: temp_tts/b3d965f7/chunk_8.wav
+2025-12-05 11:39:51,089 [INFO] TTS - Generating TTS for chunk 9/20
+2025-12-05 11:39:50,128 [INFO] TTS - Saved chunk 9 at: temp_tts/b3d965f7/chunk_9.wav
+2025-12-05 11:39:50,128 [INFO] TTS - Generating TTS for chunk 10/20
+2025-12-05 11:39:51,562 [INFO] TTS - Saved chunk 10 at: temp_tts/b3d965f7/chunk_10.wav
+2025-12-05 11:39:51,562 [INFO] TTS - Generating TTS for chunk 11/20
+2025-12-05 11:39:52,590 [INFO] TTS - Saved chunk 11 at: temp_tts/b3d965f7/chunk_11.wav
+2025-12-05 11:39:52,590 [INFO] TTS - Generating TTS for chunk 12/20
+2025-12-05 11:39:53,781 [INFO] TTS - Saved chunk 12 at: temp_tts/b3d965f7/chunk_12.wav
+2025-12-05 11:39:53,781 [INFO] TTS - Generating TTS for chunk 13/20
+2025-12-05 11:39:55,085 [INFO] TTS - Saved chunk 13 at: temp_tts/b3d965f7/chunk_13.wav
+2025-12-05 11:39:55,085 [INFO] TTS - Generating TTS for chunk 14/20
+2025-12-05 11:39:56,055 [INFO] TTS - Saved chunk 14 at: temp_tts/b3d965f7/chunk_14.wav
+2025-12-05 11:39:56,056 [INFO] TTS - Generating TTS for chunk 15/20
+2025-12-05 11:39:57,241 [INFO] TTS - Saved chunk 15 at: temp_tts/b3d965f7/chunk_15.wav
+2025-12-05 11:39:57,242 [INFO] TTS - Generating TTS for chunk 16/20
+2025-12-05 11:39:58,564 [INFO] TTS - Saved chunk 16 at: temp_tts/b3d965f7/chunk_16.wav
+2025-12-05 11:39:58,565 [INFO] TTS - Generating TTS for chunk 17/20
+2025-12-05 11:39:59,486 [INFO] TTS - Saved chunk 17 at: temp_tts/b3d965f7/chunk_17.wav
+2025-12-05 11:39:59,487 [INFO] TTS - Generating TTS for chunk 18/20
+2025-12-05 11:40:00,551 [INFO] TTS - Saved chunk 18 at: temp_tts/b3d965f7/chunk_18.wav
+2025-12-05 11:40:00,551 [INFO] TTS - Generating TTS for chunk 19/20
+2025-12-05 11:40:01,603 [INFO] TTS - Saved chunk 19 at: temp_tts/b3d965f7/chunk_19.wav
+2025-12-05 11:40:01,603 [INFO] TTS - Generating TTS for chunk 20/20
+2025-12-05 11:40:02,431 [INFO] TTS - Saved chunk 20 at: temp_tts/b3d965f7/chunk_20.wav
+2025-12-05 11:40:02,431 [INFO] TTS - Combining chunks into final audio...
+2025-12-05 11:40:02,448 [INFO] TTS - Final TTS audio saved at: temp_tts/b3d965f7/final.wav
+2025-12-05 11:40:02,448 [INFO] TTS - [END REQUEST] 2025-12-05T06:10:02.448768 | UID: b3d965f7 | Processing Time: 0.37 mins | Client: 127.0.0.1
+2025-12-05 11:40:02,448 [INFO] TTS - Scheduled cleanup of temp directory: temp_tts/b3d965f7
+2025-12-05 11:40:42,953 [INFO] TTS - [START REQUEST] 2025-12-05T06:10:42.953116 | From: 127.0.0.1 | UID: 81ca99a2
+2025-12-05 11:40:42,953 [INFO] TTS - Created temp directory: temp_tts/81ca99a2
+2025-12-05 11:40:42,953 [INFO] TTS - Read text from uploaded file: Hindi_Sample_1.txt
+2025-12-05 11:40:42,953 [INFO] TTS - Selected language: Hindi | Code: hi-IN | Speaker: hitesh
+2025-12-05 11:40:42,953 [INFO] TTS - Splitting text into chunks...
+2025-12-05 11:40:42,954 [INFO] TTS - Generating TTS for chunk 1/5
+2025-12-05 11:40:44,328 [INFO] TTS - Saved chunk 1 at: temp_tts/81ca99a2/chunk_1.wav
+2025-12-05 11:40:44,328 [INFO] TTS - Generating TTS for chunk 2/5
+2025-12-05 11:40:45,210 [INFO] TTS - Saved chunk 2 at: temp_tts/81ca99a2/chunk_2.wav
+2025-12-05 11:40:45,210 [INFO] TTS - Generating TTS for chunk 3/5
+2025-12-05 11:40:46,337 [INFO] TTS - Saved chunk 3 at: temp_tts/81ca99a2/chunk_3.wav
+2025-12-05 11:40:46,337 [INFO] TTS - Generating TTS for chunk 4/5
+2025-12-05 11:40:47,660 [INFO] TTS - Saved chunk 4 at: temp_tts/81ca99a2/chunk_4.wav
+2025-12-05 11:40:47,661 [INFO] TTS - Generating TTS for chunk 5/5
+2025-12-05 11:40:48,359 [INFO] TTS - Saved chunk 5 at: temp_tts/81ca99a2/chunk_5.wav
+2025-12-05 11:40:48,359 [INFO] TTS - Combining chunks into final audio...
+2025-12-05 11:40:48,364 [INFO] TTS - Final TTS audio saved at: temp_tts/81ca99a2/final.wav
+2025-12-05 11:40:48,364 [INFO] TTS - [END REQUEST] 2025-12-05T06:10:48.364214 | UID: 81ca99a2 | Processing Time: 0.09 mins | Client: 127.0.0.1
+2025-12-05 11:40:48,364 [INFO] TTS - Scheduled cleanup of temp directory: temp_tts/81ca99a2
+2025-12-05 11:41:12,168 [INFO] TTS - [START REQUEST] 2025-12-05T06:11:12.168887 | From: 127.0.0.1 | UID: 650b76ba
+2025-12-05 11:41:12,169 [INFO] TTS - Created temp directory: temp_tts/650b76ba
+2025-12-05 11:41:12,170 [INFO] TTS - Read text from uploaded file: Hindi_Sample_1.txt
+2025-12-05 11:41:12,170 [INFO] TTS - Selected language: Hindi | Code: hi-IN | Speaker: hitesh
+2025-12-05 11:41:12,170 [INFO] TTS - Splitting text into chunks...
+2025-12-05 11:41:12,170 [INFO] TTS - Generating TTS for chunk 1/5
+2025-12-05 11:41:13,252 [INFO] TTS - Saved chunk 1 at: temp_tts/650b76ba/chunk_1.wav
+2025-12-05 11:41:13,252 [INFO] TTS - Generating TTS for chunk 2/5
+2025-12-05 11:41:14,704 [INFO] TTS - Saved chunk 2 at: temp_tts/650b76ba/chunk_2.wav
+2025-12-05 11:41:14,704 [INFO] TTS - Generating TTS for chunk 3/5
+2025-12-05 11:41:15,839 [INFO] TTS - Saved chunk 3 at: temp_tts/650b76ba/chunk_3.wav
+2025-12-05 11:41:15,839 [INFO] TTS - Generating TTS for chunk 4/5
+2025-12-05 11:41:17,280 [INFO] TTS - Saved chunk 4 at: temp_tts/650b76ba/chunk_4.wav
+2025-12-05 11:41:17,280 [INFO] TTS - Generating TTS for chunk 5/5
+2025-12-05 11:41:18,214 [INFO] TTS - Saved chunk 5 at: temp_tts/650b76ba/chunk_5.wav
+2025-12-05 11:41:18,214 [INFO] TTS - Combining chunks into final audio...
+2025-12-05 11:41:18,219 [INFO] TTS - Final TTS audio saved at: temp_tts/650b76ba/final.wav
+2025-12-05 11:41:18,220 [INFO] TTS - [END REQUEST] 2025-12-05T06:11:18.220093 | UID: 650b76ba | Processing Time: 0.1 mins | Client: 127.0.0.1
+2025-12-05 11:41:18,220 [INFO] TTS - Scheduled cleanup of temp directory: temp_tts/650b76ba
+2025-12-05 11:41:44,030 [INFO] TTS - [START REQUEST] 2025-12-05T06:11:44.030369 | From: 127.0.0.1 | UID: ad590b6e
+2025-12-05 11:41:44,031 [INFO] TTS - Created temp directory: temp_tts/ad590b6e
+2025-12-05 11:41:44,031 [INFO] TTS - Read text from uploaded file: English_Sample_1.txt
+2025-12-05 11:41:44,031 [INFO] TTS - Selected language: English | Code: en-IN | Speaker: hitesh
+2025-12-05 11:41:44,031 [INFO] TTS - Splitting text into chunks...
+2025-12-05 11:41:44,031 [INFO] TTS - Generating TTS for chunk 1/5
+2025-12-05 11:41:44,179 [ERROR] TTS - FATAL ERROR: headers: {'date': 'Fri, 05 Dec 2025 06:11:42 GMT', 'content-type': 'application/json', 'content-length': '138', 'connection': 'keep-alive', 'server': 'uvicorn', 'x-request-id': '20251205_491b5346-bc34-4062-b826-0541504eaf69', 'access-control-allow-origin': '*', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload'}, status_code: 400, body: {'error': {'message': "'text' cannot be empty", 'code': 'invalid_request_error', 'request_id': '20251205_491b5346-bc34-4062-b826-0541504eaf69'}}
+2025-12-05 11:42:34,506 [INFO] TTS - [START REQUEST] 2025-12-05T06:12:34.505942 | From: 127.0.0.1 | UID: e3f7f981
+2025-12-05 11:42:34,507 [INFO] TTS - Created temp directory: temp_tts/e3f7f981
+2025-12-05 11:42:34,507 [INFO] TTS - Read text from uploaded file: English_Sample_2.txt
+2025-12-05 11:42:34,507 [INFO] TTS - Selected language: English | Code: en-IN | Speaker: hitesh
+2025-12-05 11:42:34,507 [INFO] TTS - Splitting text into chunks...
+2025-12-05 11:42:34,508 [INFO] TTS - Generating TTS for chunk 1/10
+2025-12-05 11:42:35,884 [INFO] TTS - Saved chunk 1 at: temp_tts/e3f7f981/chunk_1.wav
+2025-12-05 11:42:35,884 [INFO] TTS - Generating TTS for chunk 2/10
+2025-12-05 11:42:37,620 [INFO] TTS - Saved chunk 2 at: temp_tts/e3f7f981/chunk_2.wav
+2025-12-05 11:42:37,620 [INFO] TTS - Generating TTS for chunk 3/10
+2025-12-05 11:42:39,354 [INFO] TTS - Saved chunk 3 at: temp_tts/e3f7f981/chunk_3.wav
+2025-12-05 11:42:39,354 [INFO] TTS - Generating TTS for chunk 4/10
+2025-12-05 11:42:40,910 [INFO] TTS - Saved chunk 4 at: temp_tts/e3f7f981/chunk_4.wav
+2025-12-05 11:42:40,910 [INFO] TTS - Generating TTS for chunk 5/10
+2025-12-05 11:42:42,723 [INFO] TTS - Saved chunk 5 at: temp_tts/e3f7f981/chunk_5.wav
+2025-12-05 11:42:42,723 [INFO] TTS - Generating TTS for chunk 6/10
+2025-12-05 11:42:44,128 [INFO] TTS - Saved chunk 6 at: temp_tts/e3f7f981/chunk_6.wav
+2025-12-05 11:42:44,128 [INFO] TTS - Generating TTS for chunk 7/10
+2025-12-05 11:42:44,704 [INFO] TTS - Saved chunk 7 at: temp_tts/e3f7f981/chunk_7.wav
+2025-12-05 11:42:44,705 [INFO] TTS - Generating TTS for chunk 8/10
+2025-12-05 11:42:46,620 [INFO] TTS - Saved chunk 8 at: temp_tts/e3f7f981/chunk_8.wav
+2025-12-05 11:42:46,620 [INFO] TTS - Generating TTS for chunk 9/10
+2025-12-05 11:42:47,712 [INFO] TTS - Saved chunk 9 at: temp_tts/e3f7f981/chunk_9.wav
+2025-12-05 11:42:47,712 [INFO] TTS - Generating TTS for chunk 10/10
+2025-12-05 11:42:49,290 [INFO] TTS - Saved chunk 10 at: temp_tts/e3f7f981/chunk_10.wav
+2025-12-05 11:42:49,290 [INFO] TTS - Combining chunks into final audio...
+2025-12-05 11:42:49,299 [INFO] TTS - Final TTS audio saved at: temp_tts/e3f7f981/final.wav
+2025-12-05 11:42:49,300 [INFO] TTS - [END REQUEST] 2025-12-05T06:12:49.300052 | UID: e3f7f981 | Processing Time: 0.25 mins | Client: 127.0.0.1
+2025-12-05 11:42:49,300 [INFO] TTS - Scheduled cleanup of temp directory: temp_tts/e3f7f981
+2026-01-13 11:21:07,094 [INFO] TTS - Splitting text into chunks...
+2026-01-13 11:21:07,102 [INFO] TTS - Generating TTS for chunk 1/1
+2026-01-13 11:21:07,103 [ERROR] TTS - SARVAM_API_KEY is missing in environment variables
+2026-01-13 11:21:07,103 [ERROR] TTS - Preview generation failed: SarvamAI client not initialized. Check API Key.
+2026-01-13 11:37:13,452 [INFO] TTS - Splitting text into chunks...
+2026-01-13 11:37:13,456 [INFO] TTS - Generating TTS for chunk 1/1
+2026-01-13 11:37:13,457 [ERROR] TTS - SARVAM_API_KEY is missing in environment variables
+2026-01-13 11:37:13,458 [ERROR] TTS - Preview generation failed: SarvamAI client not initialized. Check API Key.
+2026-01-13 11:38:15,840 [INFO] TTS - Splitting text into chunks...
+2026-01-13 11:38:15,843 [INFO] TTS - Generating TTS for chunk 1/1
+2026-01-13 11:38:15,844 [ERROR] TTS - SARVAM_API_KEY is missing in environment variables
+2026-01-13 11:38:15,845 [ERROR] TTS - Preview generation failed: SarvamAI client not initialized. Check API Key.
+2026-01-13 11:43:34,100 [INFO] TTS - Splitting text into chunks...
+2026-01-13 11:43:34,106 [INFO] TTS - Generating TTS for chunk 1/1
+2026-01-13 11:43:34,107 [ERROR] TTS - SARVAM_API_KEY is missing in environment variables
+2026-01-13 11:43:34,109 [ERROR] TTS - Preview generation failed: SarvamAI client not initialized. Check API Key.
+2026-01-13 11:57:42,145 [INFO] TTS - Splitting text into chunks...
+2026-01-13 11:57:42,154 [INFO] TTS - Generating TTS for chunk 1/1
+2026-01-13 11:57:42,155 [ERROR] TTS - SARVAM_API_KEY is missing in environment variables
+2026-01-13 11:57:42,157 [ERROR] TTS - Preview generation failed: SarvamAI client not initialized. Check API Key.
+2026-01-13 12:00:01,455 [INFO] TTS - Splitting text into chunks...
+2026-01-13 12:00:01,464 [INFO] TTS - Generating TTS for chunk 1/1
+2026-01-13 12:00:03,869 [INFO] TTS - Combining chunks into final audio...
+2026-01-13 12:00:03,887 [INFO] TTS - Final TTS audio saved at: uploads\tts_previews\ce89b9f7\final.wav
+2026-01-13 12:00:19,269 [INFO] TTS - Splitting text into chunks...
+2026-01-13 12:00:19,271 [INFO] TTS - Generating TTS for chunk 1/1
+2026-01-13 12:00:21,426 [INFO] TTS - Combining chunks into final audio...
+2026-01-13 12:00:21,452 [INFO] TTS - Final TTS audio saved at: uploads\tts_previews\fd3f3f62\final.wav
+2026-01-13 12:00:31,870 [INFO] TTS - Splitting text into chunks...
+2026-01-13 12:00:31,872 [INFO] TTS - Generating TTS for chunk 1/1
+2026-01-13 12:00:34,232 [INFO] TTS - Combining chunks into final audio...
+2026-01-13 12:00:34,362 [INFO] TTS - Final TTS audio saved at: uploads\tts_previews\6ea594f5\final.wav
+2026-01-13 12:26:20,170 [INFO] TTS - Splitting text into chunks...
+2026-01-13 12:26:20,174 [INFO] TTS - Generating TTS for chunk 1/1
+2026-01-13 12:26:22,282 [INFO] TTS - Combining chunks into final audio...
+2026-01-13 12:26:22,314 [INFO] TTS - Final TTS audio saved at: uploads\tts_previews\a99e2317\final.wav
+2026-01-13 12:27:19,189 [INFO] TTS - Splitting text into chunks...
+2026-01-13 12:27:19,203 [INFO] TTS - Generating TTS for chunk 1/1
+2026-01-13 12:27:21,617 [INFO] TTS - Combining chunks into final audio...
+2026-01-13 12:27:21,779 [INFO] TTS - Final TTS audio saved at: uploads\tts_previews\39950150\final.wav
+2026-01-13 12:31:55,745 [INFO] TTS - Splitting text into chunks...
+2026-01-13 12:31:55,749 [INFO] TTS - Generating TTS for chunk 1/1
+2026-01-13 12:31:58,892 [INFO] TTS - Combining chunks into final audio...
+2026-01-13 12:31:58,953 [INFO] TTS - Final TTS audio saved at: uploads\tts_previews\a04ccd2c\final.wav
+2026-01-13 12:32:59,540 [INFO] TTS - Splitting text into chunks...
+2026-01-13 12:32:59,544 [INFO] TTS - Generating TTS for chunk 1/1
+2026-01-13 12:33:01,035 [INFO] TTS - Combining chunks into final audio...
+2026-01-13 12:33:01,064 [INFO] TTS - Final TTS audio saved at: uploads\tts_previews\9253d11e\final.wav
+2026-01-13 12:33:08,560 [INFO] TTS - Splitting text into chunks...
+2026-01-13 12:33:08,563 [INFO] TTS - Generating TTS for chunk 1/1
+2026-01-13 12:33:10,071 [INFO] TTS - Combining chunks into final audio...
+2026-01-13 12:33:10,110 [INFO] TTS - Final TTS audio saved at: uploads\tts_previews\57659801\final.wav
+2026-01-13 12:33:21,740 [INFO] TTS - Splitting text into chunks...
+2026-01-13 12:33:21,742 [INFO] TTS - Generating TTS for chunk 1/1
+2026-01-13 12:33:23,518 [INFO] TTS - Combining chunks into final audio...
+2026-01-13 12:33:23,558 [INFO] TTS - Final TTS audio saved at: uploads\tts_previews\b70fdb37\final.wav
